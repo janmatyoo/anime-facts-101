@@ -1,0 +1,44 @@
+[
+
+  {
+    "id": "1",
+    "anime": "One Piece",
+    "title": "Anime Fact 1",
+    "preview": "Luffy is so focused on becoming Pirate King, he only takes a bath once a week.",
+    "fullText": "When you are the future Pirate King, things like taking regular showers are not exactly a top priority. Luffy is so focused on adventure, meat, and chasing the One Piece that he only takes a bath once a week. Yes, you read that right—once a week! Whether he is sailing the Grand Line, fighting warlords, or goofing off with his crew, hygiene is the least of his concerns. But hey, when you are made of rubber and powered by dreams, maybe you do not sweat the small stuff.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/af_1.png"
+  },
+  {
+    "id": "124",
+    "anime": "Gundam",
+    "title": "Anime Fact 124",
+    "preview": "Gundam was first called 'Gundom', a mix of 'gun' and 'freedom', before it was renamed.",
+    "fullText": "The iconic name 'Gundam' wasn’t the original title for the legendary mecha series. It was first called 'Gundom', blending the words 'gun' and 'freedom' to reflect its combat-focused themes. However, creators later changed the name to 'Gundam' to symbolize the robots as dams holding back enemy forces. This shift gave the series a more metaphorical depth, aligning the mobile suits with protectors rather than just weapons of war.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/af_124.png"
+  },
+  {
+    "id": "125",
+    "anime": "Akira",
+    "title": "Anime Fact 125",
+    "preview": "Akira used 50 original colors made just for the film to push animation boundaries.",
+    "fullText": "Akira is not just a legendary anime film because of its story—it is a visual revolution. The creators designed 50 unique colors specifically for this movie, pushing the limits of animation during its time. From neon lights to post-apocalyptic cityscapes, every frame was crafted with groundbreaking detail. It is no surprise that Akira continues to influence modern animation, sci-fi, and cyberpunk visuals even decades later.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/af_125.png"
+  },
+  {
+    "id": "126",
+    "anime": "Boku no Hero Academia",
+    "title": "Anime Fact 126",
+    "preview": "Yuga Aoyama's original name was 'Can't Stop Twinkle' and his design was slightly different.",
+    "fullText": "In the early stages of My Hero Academia's development, Yuga Aoyama's character design was already quite close to the final version we see today. The main differences included slightly longer, less spiky hair and a different choice of pants. Interestingly, his original hero name was going to be Can't Stop Twinkle, but it was later changed to Can't Stop Twinkling. These small tweaks helped fine-tune his flamboyant and quirky persona that fans know and love.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/af_126.png"
+  },
+  {
+    "id": "127",
+    "anime": "One Piece",
+    "title": "Anime Fact 127",
+    "preview": "Zoro was originally going to be part of Buggy the Clown’s crew in early One Piece drafts.",
+    "fullText": "Before One Piece became the epic we know today, Eiichiro Oda had very different plans for Roronoa Zoro. In the early drafts, Zoro was originally going to be a member of Buggy the Clown's pirate crew. Concept art even showed him as a swordsman serving under Buggy, which would have completely changed the dynamic of the story. Luckily, Oda decided to make Zoro Luffy's first crewmate, setting the stage for one of the most iconic duos in anime history.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/af_127.png"
+  }
+
+]
