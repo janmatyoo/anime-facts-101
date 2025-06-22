@@ -9,6 +9,38 @@
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_1.png"
   },
   {
+    "id": "2",
+    "anime": "Fairy Tail",
+    "title": "Anime Fact 2",
+    "preview": "Gajeel writes good songs, but Gray says his singing and playing are pretty bad.",
+    "fullText": "According to Gray, Gajeel is surprisingly a very good songwriter. However, his musical talents stop there—Gray also mentions that Gajeel is terrible at singing and playing instruments. While Gajeel has the heart of a rockstar, his skills clearly need some tuning. Still, it’s fun to imagine him rocking out off-key in the Fairy Tail guild hall.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_2.png"
+  },
+  {
+    "id": "3",
+    "anime": "YuYu Hakusho",
+    "title": "Anime Fact 3",
+    "preview": "Hiei and Kurama were once planned to be a couple, but became close friends instead.",
+    "fullText": "Hiei and Kurama were originally intended to be in a romantic relationship in the early drafts of Yu Yu Hakusho. However, due to content restrictions and editorial concerns at the time, Yoshihiro Togashi changed their dynamic to a deep and loyal friendship instead. Despite the change, their bond remains one of the most compelling and enduring relationships in the series.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_3.png"
+  },
+  {
+    "id": "4",
+    "anime": "Pokemon",
+    "title": "Anime Fact 4",
+    "preview": "Vullaby is a Dark-type likely because it wears a broken human skull as a diaper.",
+    "fullText": "The diaper-wearing Pokémon Vullaby is classified as a Dark type, and that might not be random. Its 'diaper' actually appears to be a broken human skull, hinting at a darker and more unsettling origin. This eerie design choice likely explains its typing and adds a layer of creepy mystery to an otherwise odd-looking Pokémon.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_4.png"
+  },
+  {
+    "id": "5",
+    "anime": "Hunter x Hunter",
+    "title": "Anime Fact 5",
+    "preview": "Miss Universe Japan 2013 said her ideal man is Leorio from Hunter x Hunter.",
+    "fullText": "Miss Universe Japan 2013, Yukimi Matsuo, surprised fans when she revealed that her ideal type is none other than Leorio Paradinight from Hunter x Hunter. As a big anime fan herself, her choice shows just how beloved and relatable Leorio is—even to beauty queens!",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_5.png"
+  },
+  {
     "id": "124",
     "anime": "Gundam",
     "title": "Anime Fact 124",
