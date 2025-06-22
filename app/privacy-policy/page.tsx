@@ -8,27 +8,35 @@ export default function PrivacyPolicyPage() {
           <div className="bg-white rounded-xl shadow-lg p-8 md:p-12">
             <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
               <p>
-                Anime Facts 101 respects your privacy. This website uses cookies and third-party services, including
-                Google AdSense, to serve relevant advertisements and track performance.
+                <strong>Anime Facts 101</strong> respects your privacy. This website uses cookies and third-party services —
+                including Google AdSense — to show relevant ads and monitor performance.
               </p>
 
               <p>
-                By using this website, you agree to the collection of anonymous data such as browser type, location
-                (non-specific), and device information for analytics and ad-serving purposes.
+                By using this website, you agree to the collection of non-personally identifiable data such as:
+              </p>
+
+              <ul>
+                <li>Browser type</li>
+                <li>General location (non-specific)</li>
+                <li>Device information</li>
+                <li>Browsing behavior (via cookies)</li>
+              </ul>
+
+              <p>
+                This information helps us improve content, user experience, and deliver more relevant ads.
               </p>
 
               <p>
-                We do not collect personal information unless explicitly provided by the user (e.g. contact forms or
-                email subscriptions).
+                We do <strong>not</strong> collect personal information unless explicitly provided by you (e.g. via email).
               </p>
 
               <p>
-                Ads shown on this site may use cookies to personalize your experience based on past visits to this or
-                other sites.
+                Ads on this site may use cookies to personalize your experience based on your previous visits to this or other websites.
               </p>
 
               <p>
-                For more details about how Google handles your data, please review{" "}
+                For more details on how Google handles your data, please visit{" "}
                 <a
                   href="https://policies.google.com/technologies/ads"
                   target="_blank"
@@ -38,6 +46,16 @@ export default function PrivacyPolicyPage() {
                   Google's Privacy & Terms
                 </a>
                 .
+              </p>
+
+              <p>
+                📩 For questions or concerns, contact us at{" "}
+                <a
+                  href="mailto:animefacts101@gmail.com"
+                  className="underline hover:text-[#f43d01]"
+                >
+                  animefacts101@gmail.com
+                </a>
               </p>
 
               <div className="mt-8 pt-8 border-t border-gray-200">

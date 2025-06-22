@@ -27,14 +27,24 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              <div className="mt-8 pt-8 border-t border-gray-200">
+              <div className="mt-8 pt-8 border-t border-gray-200 space-y-4">
                 <div className="flex justify-center">
-                  <div className="w-24 h-24 bg-[#133162] rounded-full flex items-center justify-center">
-                    <span className="text-2xl text-white font-bold">AF</span>
+                  <div className="w-32 h-32 rounded-full flex items-center justify-center">
+                    <img src="/logo-circle.png" alt="Anime Facts 101" className="w-[100px] sm:w-[150px] md:w-[200px] h-auto" />
                   </div>
                 </div>
-                <p className="text-center text-gray-600 mt-4">Spreading anime knowledge, one fact at a time.</p>
+                <p className="text-center text-gray-600">Spreading anime knowledge, one fact at a time.</p>
+                <p className="text-center text-gray-600">
+                  📩 Contact:{" "}
+                  <a
+                    href="mailto:animefacts101.business@gmail.com"
+                    className="underline hover:text-[#f43d01]"
+                  >
+                    animefacts101.business@gmail.com
+                  </a>
+                </p>
               </div>
+
             </div>
           </div>
         </div>
