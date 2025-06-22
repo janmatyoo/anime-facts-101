@@ -44,7 +44,7 @@ export default function Header() {
                 key={link.href}
                 href={link.href}
                 className={`font-medium transition-colors duration-200 ${
-                  pathname.startsWith(link.href)
+                  (link.href === "/" ? pathname === "/" : pathname.startsWith(link.href))
                     ? "text-[#f43d01] border-b-2 border-[#f43d01] pb-1"
                     : "text-[#1a1a1a] hover:text-[#f43d01]"
                 }`}
@@ -77,7 +77,7 @@ export default function Header() {
                 href={link.href}
                 onClick={closeMenu}
                 className={`block px-4 py-2 text-lg font-medium transition-colors duration-200 ${
-                  pathname.startsWith(link.href)
+                  (link.href === "/" ? pathname === "/" : pathname.startsWith(link.href))
                     ? "text-[#f43d01]"
                     : "text-[#1a1a1a] hover:text-[#f43d01]"
                 }`}

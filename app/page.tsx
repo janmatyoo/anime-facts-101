@@ -25,6 +25,7 @@ export default function HomePage() {
           </div>
 
           <FactCard
+            id={featuredFact.id}
             title={featuredFact.title}
             anime={featuredFact.anime}
             preview={featuredFact.fullText}
@@ -50,11 +51,12 @@ export default function HomePage() {
             {gridFacts.map((fact, index) => (
               <div key={fact.id}>
                 <FactCard
+                  id={fact.id}
                   title={fact.title}
                   anime={fact.anime}
                   preview={fact.preview}
                   image={fact.image}
-                  href={`/fact/${fact.id}`}
+                  href={`/random?id=${fact.id}`}
                 />
 
                 {/* Insert ad after every 4 cards */}

@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import { useSearchParams } from "next/navigation"
 import FactCard from "../components/fact-card"
 import AdBanner from "../components/ad-banner"
 
@@ -21,6 +22,8 @@ export default function RandomPage() {
   const [facts, setFacts] = useState<AnimeFact[]>([])
   const [currentFact, setCurrentFact] = useState<AnimeFact | null>(null)
   const [relatedFacts, setRelatedFacts] = useState<AnimeFact[]>([])
+  const searchParams = useSearchParams()
+  const factId = searchParams.get("id")
 
   useEffect(() => {
     fetch("/facts.json")
@@ -28,13 +31,23 @@ export default function RandomPage() {
       .then((data: AnimeFact[]) => {
         setFacts(data)
 
-        const random = getRandomFact(data)
-        setCurrentFact(random)
+        let selectedFact: AnimeFact | null = null
 
-        const others = data.filter(f => f.id !== random.id)
+        if (factId) {
+          selectedFact = data.find(f => f.id === factId) || null
+        }
+
+        if (!selectedFact) {
+          selectedFact = getRandomFact(data)
+        }
+
+        setCurrentFact(selectedFact)
+
+        const others = data.filter(f => f.id !== selectedFact?.id)
         setRelatedFacts(others.slice(0, 3))
       })
-  }, [])
+  }, [factId])
+
 
   const handleNewFact = () => {
     if (!facts.length) return
@@ -102,11 +115,12 @@ export default function RandomPage() {
             {relatedFacts.map((fact) => (
               <FactCard
                 key={fact.id}
+                id={fact.id}
                 title={fact.title}
                 anime={fact.anime}
                 preview={fact.preview}
                 image={fact.image}
-                href={`/fact/${fact.id}`}
+                href={`/random?id=${fact.id}`}
               />
             ))}
           </div>

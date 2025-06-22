@@ -5,6 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 interface FactCardProps {
+  id: string
   title: string
   anime: string
   preview: string
@@ -13,7 +14,7 @@ interface FactCardProps {
   size?: "small" | "large"
 }
 
-export default function FactCard({ title, anime, preview, image, href = "#", size = "small" }: FactCardProps) {
+export default function FactCard({ id, title, anime, preview, image, href = "#", size = "small" }: FactCardProps) {
   const router = useRouter()
 
   const handleRandomFact = () => {
@@ -49,7 +50,7 @@ export default function FactCard({ title, anime, preview, image, href = "#", siz
             See Another Random Fact
           </button>
         ) : (
-          <Link href={href}>
+          <Link href={`/random?id=${id}`}>
             <button className="btn-secondary text-sm">Read More</button>
           </Link>
         )}
