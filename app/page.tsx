@@ -1,17 +1,16 @@
 import FactCard from "./components/fact-card"
 import AdBanner from "./components/ad-banner"
-// import { animeFacts, getRandomFact } from "./data/facts"
 import facts from "../public/facts.json"
+import Link from "next/link"
 
 function getRandomFact(factsArray) {
   return factsArray[Math.floor(Math.random() * factsArray.length)]
 }
 
 export default function HomePage() {
-  // const featuredFact = getRandomFact()
-  // const gridFacts = animeFacts.slice(0, 8)
   const featuredFact = getRandomFact(facts)
-  const gridFacts = facts.slice(0, 8)
+  const shuffledFacts = [...facts].sort(() => 0.5 - Math.random())
+  const gridFacts = shuffledFacts.slice(0, 6)
 
   return (
     <div className="min-h-screen bg-white">
@@ -66,6 +65,16 @@ export default function HomePage() {
                 )}
               </div>
             ))}
+          </div>
+
+          {/* View All link */}
+          <div className="text-center mt-10">
+            <Link
+              href="/page/1"
+              className="inline-block px-6 py-3 text-[#133162] border border-[#133162] rounded-xl text-lg font-medium hover:bg-[#133162] hover:text-white transition"
+            >
+              View All Anime Facts →
+            </Link>
           </div>
         </div>
       </section>
