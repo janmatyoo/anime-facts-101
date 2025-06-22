@@ -41,6 +41,46 @@
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_5.png"
   },
   {
+    "id": "6",
+    "anime": "Naruto",
+    "title": "Anime Fact 6",
+    "preview": "Naruto’s official hobbies are pulling pranks and watering plants.",
+    "fullText": "According to official character data, Naruto’s hobbies are pulling pranks and watering plants. While the prank part fits his mischievous personality, the plant-watering side shows a surprisingly calm and nurturing side to the future Hokage.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_6.png"
+  },
+  {
+    "id": "7",
+    "anime": "Bleach",
+    "title": "Anime Fact 7",
+    "preview": "Fans flooded Tite Kubo with letters about Ulquiorra, but he never confirmed his fate.",
+    "fullText": "Tite Kubo reportedly received thousands of letters from fans reacting to Ulquiorra’s death in Bleach. Despite the overwhelming response, Kubo never officially confirmed whether the Espada truly died. Instead, he left Ulquiorra’s fate open to interpretation, allowing fans to decide for themselves what became of the fan-favorite character.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_7.png"
+  },
+  {
+    "id": "8",
+    "anime": "One Piece",
+    "title": "Anime Fact 8",
+    "preview": "Chopper was originally tall, but Oda made him shorter to balance the crew's spotlight.",
+    "fullText": "Chopper’s original design was a tall, lanky, bipedal reindeer. However, Luffy, Zoro, Sanji, Nami, and Usopp were already too popular, and Oda couldn’t find a place for Chopper. Oda thought that if he had gone with that design, Chopper would have been upstaged by the other characterd, so he made him shorter instead.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_8.png"
+  },
+  {
+    "id": "9",
+    "anime": "Hajime no Ippo",
+    "title": "Anime Fact 9",
+    "preview": "Ippo’s iconic boxing trunks were lovingly handmade by his mother.",
+    "fullText": "In Hajime no Ippo, Ippo’s boxing trunks hold special meaning—they were handmade by his mother. This personal touch symbolizes the support and love from his family, grounding Ippo’s fighting spirit not just in training, but in the values and care he grew up with.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_9.png"
+  },
+  {
+    "id": "10",
+    "anime": "Attack on Titan",
+    "title": "Anime Fact 10",
+    "preview": "Carla once said that Eren’s ears turn red whenever he’s lying.",
+    "fullText": "In Attack on Titan, Carla Jaeger once revealed a quirky detail about her son—Eren’s ears turn red when he’s lying. It’s a small but charming trait that adds a bit of humanity to Eren’s complex character, especially in the early parts of the story.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_10.png"
+  },
+  {
     "id": "124",
     "anime": "Gundam",
     "title": "Anime Fact 124",
