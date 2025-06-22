@@ -29,7 +29,13 @@ export default function Footer() {
         </div>
 
         <div className="mt-6 pt-6 border-t border-gray-200 text-center text-sm text-gray-600">
-          © 2024 Anime Facts 101. All rights reserved.
+          © 2025 Anime Facts 101. All rights reserved.
+        </div>
+        <div className="mt-2 text-center text-sm text-gray-600">
+          Contact:{" "}
+          <a href="mailto:animefacts101.business@gmail.com" className="underline hover:text-[#f43d01]">
+            animefacts101.business@gmail.com
+          </a>
         </div>
       </div>
     </footer>
