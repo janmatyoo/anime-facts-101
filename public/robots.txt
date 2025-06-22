@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://animefacts101.com//sitemap.xml
