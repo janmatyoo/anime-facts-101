@@ -4,6 +4,7 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 import Header from "./components/header"
 import Footer from "./components/footer"
+import Script from "next/script"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -21,6 +22,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-white text-gray-900`}>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1564728634598481"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />

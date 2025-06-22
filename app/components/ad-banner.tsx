@@ -1,22 +1,48 @@
+'use client'
+import { useEffect, useRef } from "react"
+
 interface AdBannerProps {
   className?: string
   size?: "horizontal" | "rectangle"
 }
 
 export default function AdBanner({ className = "", size = "horizontal" }: AdBannerProps) {
-  const sizeClasses = {
-    horizontal: "h-24 w-full",
-    rectangle: "h-64 w-full max-w-sm",
+  const adRef = useRef<HTMLDivElement>(null)
+
+  const sizeMap = {
+    horizontal: {
+      style: { display: "block" },
+      class: "w-full h-24",
+      format: "horizontal",
+    },
+    rectangle: {
+      style: { display: "block" },
+      class: "w-full max-w-sm h-64",
+      format: "rectangle",
+    },
   }
 
+  useEffect(() => {
+    try {
+      // Load the ad
+      if (window && (window as any).adsbygoogle) {
+        (window as any).adsbygoogle.push({})
+      }
+    } catch (e) {
+      console.error("Adsense error", e)
+    }
+  }, [])
+
   return (
-    <div
-      className={`${sizeClasses[size]} bg-gray-100 border-2 border-dashed border-gray-300 flex items-center justify-center ${className}`}
-    >
-      <div className="text-gray-500 text-center">
-        <div className="text-sm font-medium">Advertisement</div>
-        <div className="text-xs">Ad Space - {size}</div>
-      </div>
+    <div className={`${sizeMap[size].class} ${className}`}>
+      <ins
+        className="adsbygoogle"
+        style={sizeMap[size].style}
+        data-ad-client="ca-pub-XXXXXXXXXXXX"
+        data-ad-slot="2942300015"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
     </div>
   )
 }
