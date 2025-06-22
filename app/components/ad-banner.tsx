@@ -11,20 +11,19 @@ export default function AdBanner({ className = "", size = "horizontal" }: AdBann
 
   const sizeMap = {
     horizontal: {
-      style: { display: "block" },
-      class: "w-full h-24",
-      format: "horizontal",
+      width: 728,
+      height: 90,
     },
     rectangle: {
-      style: { display: "block" },
-      class: "w-full max-w-sm h-64",
-      format: "rectangle",
+      width: 300,
+      height: 250,
     },
   }
 
+  const { width, height } = sizeMap[size]
+
   useEffect(() => {
     try {
-      // Load the ad
       if (window && (window as any).adsbygoogle) {
         (window as any).adsbygoogle.push({})
       }
@@ -34,14 +33,16 @@ export default function AdBanner({ className = "", size = "horizontal" }: AdBann
   }, [])
 
   return (
-    <div className={`${sizeMap[size].class} ${className}`}>
+    <div
+      className={`mx-auto ${className}`}
+      style={{ width: `${width}px`, height: `${height}px` }}
+      ref={adRef}
+    >
       <ins
         className="adsbygoogle"
-        style={sizeMap[size].style}
+        style={{ display: "inline-block", width: `${width}px`, height: `${height}px` }}
         data-ad-client="ca-pub-1564728634598481"
         data-ad-slot="2942300015"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
       />
     </div>
   )

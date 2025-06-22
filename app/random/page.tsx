@@ -63,6 +63,14 @@ export default function RandomPage() {
 
         {/* Main Fact Card */}
         <div className="mb-12">
+          {/* Button on top */}
+          <div className="flex justify-center mb-4">
+            <button onClick={handleNewFact} className="btn-primary w-full sm:w-auto">
+              Show Another Fact
+            </button>
+          </div>
+
+          {/* Fact Card */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden max-w-2xl mx-auto">
             <div className="flex justify-center">
               <div className="w-full h-full object-cover">
@@ -77,12 +85,6 @@ export default function RandomPage() {
               <div className="text-[#f43d01] text-sm font-medium mb-2">{currentFact.anime}</div>
               <h2 className="text-2xl font-bold text-[#1a1a1a] mb-4">{currentFact.title}</h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">{currentFact.fullText}</p>
-
-              <div className="flex justify-center">
-                <button onClick={handleNewFact} className="btn-primary w-full sm:w-auto">
-                  Show Another Fact
-                </button>
-              </div>
             </div>
           </div>
         </div>
