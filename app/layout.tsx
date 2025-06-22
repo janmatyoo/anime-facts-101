@@ -28,6 +28,7 @@ export default function RootLayout({
         ></script>
         <title>Anime Facts 101</title>
         <meta name="description" content="Discover surprising anime facts, trivia, and hidden insights from your favorite shows and characters." />
+        <link rel="icon" href="/favicon.png" />
       </head>
       <body className={`${inter.className} bg-white text-gray-900`}>
         <Header />
