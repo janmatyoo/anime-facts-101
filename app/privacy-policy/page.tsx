@@ -51,10 +51,10 @@ export default function PrivacyPolicyPage() {
               <p>
                 📩 For questions or concerns, contact us at{" "}
                 <a
-                  href="mailto:animefacts101@gmail.com"
+                  href="mailto:animefacts101.business@gmail.com"
                   className="underline hover:text-[#f43d01]"
                 >
-                  animefacts101@gmail.com
+                  animefacts101.business@gmail.com
                 </a>
               </p>
 

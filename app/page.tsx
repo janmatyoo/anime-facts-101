@@ -59,7 +59,6 @@ export default function HomePage() {
                   href={`/random?id=${fact.id}`}
                 />
 
-                {/* Insert ad after every 4 cards */}
                 {(index + 1) % 4 === 0 && (
                   <div className="col-span-full my-8">
                     <AdBanner size="rectangle" className="mx-auto" />
@@ -69,7 +68,6 @@ export default function HomePage() {
             ))}
           </div>
 
-          {/* View All link */}
           <div className="text-center mt-10">
             <Link
               href="/page/1"
