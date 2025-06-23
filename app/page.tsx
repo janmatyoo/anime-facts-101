@@ -1,14 +1,15 @@
+// app/page.tsx
+import facts from "../public/facts.json"
 import FactCard from "./components/fact-card"
 import AdBanner from "./components/ad-banner"
-import facts from "../public/facts.json"
 import Link from "next/link"
 
-function getRandomFact(factsArray) {
-  return factsArray[Math.floor(Math.random() * factsArray.length)]
+function getRandomFact() {
+  return facts[Math.floor(Math.random() * facts.length)]
 }
 
 export default function HomePage() {
-  const featuredFact = getRandomFact(facts)
+  const featuredFact = getRandomFact()
   const shuffledFacts = [...facts].sort(() => 0.5 - Math.random())
   const gridFacts = shuffledFacts.slice(0, 6)
 
@@ -18,7 +19,9 @@ export default function HomePage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-[#133162] mb-4">Anime Fact of the Day</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#133162] mb-4">
+              Featured Fact of the Day
+            </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Discover surprising trivia and hidden insights from your favorite anime series
             </p>
@@ -42,7 +45,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Facts Grid */}
+      {/* More Facts Grid */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-[#133162] text-center mb-12">More Anime Facts</h2>
@@ -68,6 +71,7 @@ export default function HomePage() {
             ))}
           </div>
 
+          {/* View All Button */}
           <div className="text-center mt-10">
             <Link
               href="/page/1"
