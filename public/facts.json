@@ -1,116 +1,154 @@
 [
-
   {
     "id": "1",
     "anime": "One Piece",
     "title": "Anime Fact 1",
-    "preview": "Luffy is so focused on becoming Pirate King, he only takes a bath once a week.",
-    "fullText": "When you are the future Pirate King, things like taking regular showers are not exactly a top priority. Luffy is so focused on adventure, meat, and chasing the One Piece that he only takes a bath once a week. Yes, you read that right—once a week! Whether he is sailing the Grand Line, fighting warlords, or goofing off with his crew, hygiene is the least of his concerns. But hey, when you are made of rubber and powered by dreams, maybe you do not sweat the small stuff.",
+    "preview": "Luffy only bathes once a week, focusing on becoming the Pirate King in One Piece.",
+    "fullText": "In One Piece, Monkey D. Luffy takes a bath only once a week. Eiichiro Oda revealed this quirky hygiene detail to highlight Luffy’s focus on adventure and his carefree nature. While others might worry about cleanliness, Luffy's sights are set on becoming the Pirate King, no matter how sweaty the journey gets.",
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_1.png"
   },
   {
     "id": "2",
     "anime": "Fairy Tail",
     "title": "Anime Fact 2",
-    "preview": "Gajeel writes good songs, but Gray says his singing and playing are pretty bad.",
-    "fullText": "According to Gray, Gajeel is surprisingly a very good songwriter. However, his musical talents stop there—Gray also mentions that Gajeel is terrible at singing and playing instruments. While Gajeel has the heart of a rockstar, his skills clearly need some tuning. Still, it’s fun to imagine him rocking out off-key in the Fairy Tail guild hall.",
+    "preview": "Fairy Tail’s Gajeel writes songs, but Gray says he can't sing or play instruments well.",
+    "fullText": "In Fairy Tail, Gray Fullbuster revealed that fellow guild member Gajeel Redfox is actually a talented songwriter. However, Gray also pointed out that Gajeel’s singing voice and instrument-playing skills leave much to be desired. Despite this, Gajeel's musical passion adds a fun layer to his rough-and-tough image.",
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_2.png"
   },
   {
     "id": "3",
     "anime": "YuYu Hakusho",
     "title": "Anime Fact 3",
-    "preview": "Hiei and Kurama were once planned to be a couple, but became close friends instead.",
-    "fullText": "Hiei and Kurama were originally intended to be in a romantic relationship in the early drafts of Yu Yu Hakusho. However, due to content restrictions and editorial concerns at the time, Yoshihiro Togashi changed their dynamic to a deep and loyal friendship instead. Despite the change, their bond remains one of the most compelling and enduring relationships in the series.",
+    "preview": "Yu Yu Hakusho's Hiei and Kurama were once meant to be a couple, not just friends.",
+    "fullText": "In early drafts of Yu Yu Hakusho, creator Yoshihiro Togashi considered making Hiei and Kurama a romantic couple. Due to content restrictions and editorial decisions at the time, he shifted their relationship to a strong and loyal friendship instead. Their bond remains one of the most emotionally rich in the series.",
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_3.png"
   },
   {
     "id": "4",
     "anime": "Pokemon",
     "title": "Anime Fact 4",
-    "preview": "Vullaby is a Dark-type likely because it wears a broken human skull as a diaper.",
-    "fullText": "The diaper-wearing Pokémon Vullaby is classified as a Dark type, and that might not be random. Its 'diaper' actually appears to be a broken human skull, hinting at a darker and more unsettling origin. This eerie design choice likely explains its typing and adds a layer of creepy mystery to an otherwise odd-looking Pokémon.",
+    "preview": "Vullaby wears a broken skull as a diaper, possibly explaining its Dark-type origin.",
+    "fullText": "In the Pokémon universe, Vullaby is a Dark-type Pokémon that wears what appears to be a broken human skull as a diaper. This eerie and unsettling design likely plays a role in its typing, giving it a grim backstory compared to most other baby Pokémon.",
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_4.png"
   },
   {
     "id": "5",
     "anime": "Hunter x Hunter",
     "title": "Anime Fact 5",
-    "preview": "Miss Universe Japan 2013 said her ideal man is Leorio from Hunter x Hunter.",
-    "fullText": "Miss Universe Japan 2013, Yukimi Matsuo, surprised fans when she revealed that her ideal type is none other than Leorio Paradinight from Hunter x Hunter. As a big anime fan herself, her choice shows just how beloved and relatable Leorio is—even to beauty queens!",
+    "preview": "Miss Universe Japan 2013 picked Leorio from Hunter x Hunter as her ideal anime man.",
+    "fullText": "Yukimi Matsuo, Miss Universe Japan 2013, surprised anime fans by naming Leorio Paradinight from Hunter x Hunter as her ideal type. As an anime lover herself, her choice made headlines and showed just how much impact Leorio’s character has even outside anime circles.",
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_5.png"
   },
   {
     "id": "6",
     "anime": "Naruto",
     "title": "Anime Fact 6",
-    "preview": "Naruto’s official hobbies are pulling pranks and watering plants.",
-    "fullText": "According to official character data, Naruto’s hobbies are pulling pranks and watering plants. While the prank part fits his mischievous personality, the plant-watering side shows a surprisingly calm and nurturing side to the future Hokage.",
+    "preview": "Naruto's official hobbies include pulling pranks and watering plants.",
+    "fullText": "According to official data books, Naruto Uzumaki enjoys pulling pranks and watering plants. The prankster side fits his early personality, while the gardening shows a softer, more nurturing side to the future Hokage of Konoha.",
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_6.png"
   },
   {
     "id": "7",
     "anime": "Bleach",
     "title": "Anime Fact 7",
-    "preview": "Fans flooded Tite Kubo with letters about Ulquiorra, but he never confirmed his fate.",
-    "fullText": "Tite Kubo reportedly received thousands of letters from fans reacting to Ulquiorra’s death in Bleach. Despite the overwhelming response, Kubo never officially confirmed whether the Espada truly died. Instead, he left Ulquiorra’s fate open to interpretation, allowing fans to decide for themselves what became of the fan-favorite character.",
+    "preview": "Tite Kubo never confirmed Ulquiorra’s death despite fan letters flooding in.",
+    "fullText": "After Ulquiorra’s apparent death in Bleach, creator Tite Kubo received thousands of letters from fans. Interestingly, he never confirmed the Espada's fate, leaving Ulquiorra’s death ambiguous. This open-ended conclusion has fueled debates among fans for years.",
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_7.png"
   },
   {
     "id": "8",
     "anime": "One Piece",
     "title": "Anime Fact 8",
-    "preview": "Chopper was originally tall, but Oda made him shorter to balance the crew's spotlight.",
-    "fullText": "Chopper’s original design was a tall, lanky, bipedal reindeer. However, Luffy, Zoro, Sanji, Nami, and Usopp were already too popular, and Oda couldn’t find a place for Chopper. Oda thought that if he had gone with that design, Chopper would have been upstaged by the other characterd, so he made him shorter instead.",
+    "preview": "Oda redesigned Chopper to be smaller so he wouldn’t be overshadowed by the crew.",
+    "fullText": "In One Piece, Chopper was originally designed as a tall reindeer, but Eiichiro Oda decided to make him shorter. This was to ensure he stood out among the already popular Straw Hat crew, helping Chopper develop a distinct and lovable character.",
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_8.png"
   },
   {
     "id": "9",
     "anime": "Hajime no Ippo",
     "title": "Anime Fact 9",
-    "preview": "Ippo’s iconic boxing trunks were lovingly handmade by his mother.",
-    "fullText": "In Hajime no Ippo, Ippo’s boxing trunks hold special meaning—they were handmade by his mother. This personal touch symbolizes the support and love from his family, grounding Ippo’s fighting spirit not just in training, but in the values and care he grew up with.",
+    "preview": "Ippo’s boxing trunks in Hajime no Ippo were handmade by his mother.",
+    "fullText": "In Hajime no Ippo, the boxing trunks worn by Ippo Makunouchi were lovingly handmade by his mother. This detail reflects the strong family support behind his boxing career and gives emotional weight to his journey in the ring.",
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_9.png"
   },
   {
     "id": "10",
     "anime": "Attack on Titan",
     "title": "Anime Fact 10",
-    "preview": "Carla once said that Eren’s ears turn red whenever he’s lying.",
-    "fullText": "In Attack on Titan, Carla Jaeger once revealed a quirky detail about her son—Eren’s ears turn red when he’s lying. It’s a small but charming trait that adds a bit of humanity to Eren’s complex character, especially in the early parts of the story.",
+    "preview": "Carla said Eren’s ears turn red when he’s lying in Attack on Titan.",
+    "fullText": "In Attack on Titan, Carla Jaeger once shared a fun fact: her son Eren’s ears turn red when he lies. This small but endearing character detail adds a humanizing touch to the often intense and dramatic world of the anime.",
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_10.png"
   },
+  {
+    "id": "11",
+    "anime": "Sket Dance",
+    "title": "Anime Fact 11",
+    "preview": "Switch’s laptop voice is made from his own and his deceased brother’s voice.",
+    "fullText": "In Sket Dance, Switch communicates using a synthesized voice through his laptop. What makes this voice special is that it combines his own voice with recordings of his late brother’s. This emotional tribute adds powerful depth to his quiet and tech-savvy persona.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_11.png"
+  },
+  {
+    "id": "12",
+    "anime": "Gintama",
+    "title": "Anime Fact 12",
+    "preview": "Gintama’s Sakata Gintoki can’t swim, as confirmed in Lesson 472 by Tama.",
+    "fullText": "In Gintama Lesson 472, Tama confirms that Sakata Gintoki can’t swim. While it may come as a surprise, fans have seen subtle hints throughout the series—like Gintoki often wearing floaties in water scenes. This detail adds to his quirky and unpredictable personality, making him even more relatable and humorous to fans.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_12.png"
+  },
+  {
+    "id": "13",
+    "anime": "Dragon Ball",
+    "title": "Anime Fact 13",
+    "preview": "In Budokai Tenkaichi 3, Roshi tells Chi-Chi he never liked the Ox-King.",
+    "fullText": "In the video game Dragon Ball Z: Budokai Tenkaichi 3, if Master Roshi faces off against Chi-Chi, he makes a surprising comment—saying he never liked the Ox-King, her father. While meant as a humorous pre-battle line, it adds a funny twist to the long-standing relationship between the characters in the Dragon Ball universe.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_13.png"
+  },
+  {
+    "id": "14",
+    "anime": "YuYu Hakusho",
+    "title": "Anime Fact 14",
+    "preview": "Togashi says the Toguro Brothers are his favorite villains for being unrestrained.",
+    "fullText": "Yu Yu Hakusho creator Yoshihiro Togashi once revealed that the Toguro Brothers are his favorite villains in the series. He described them as 'fundamentally unrestrained,' meaning they represent raw power and a refusal to hold back, both physically and ideologically. Their intense presence and moral ambiguity made them standout antagonists in the Dark Tournament arc.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_14.png"
+  },
+  {
+    "id": "15",
+    "anime": "Pokemon",
+    "title": "Anime Fact 15",
+    "preview": "In Pokémon Yellow, Red’s Pikachu refuses to evolve and walks outside its Poké Ball.",
+    "fullText": "In Pokémon Yellow, Red’s Pikachu was designed to mirror Ash Ketchum’s Pikachu from the anime. Like Ash’s companion, this Pikachu refuses to evolve and follows the player outside of its Poké Ball throughout the game. This unique behavior made Pokémon Yellow stand out and created a stronger connection between the anime and game series.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_15.png"
+  }
   {
     "id": "124",
     "anime": "Gundam",
     "title": "Anime Fact 124",
-    "preview": "Gundam was first called 'Gundom', a mix of 'gun' and 'freedom', before it was renamed.",
-    "fullText": "The iconic name 'Gundam' wasn’t the original title for the legendary mecha series. It was first called 'Gundom', blending the words 'gun' and 'freedom' to reflect its combat-focused themes. However, creators later changed the name to 'Gundam' to symbolize the robots as dams holding back enemy forces. This shift gave the series a more metaphorical depth, aligning the mobile suits with protectors rather than just weapons of war.",
+    "preview": "Gundam was first called 'Gundom', mixing 'gun' and 'freedom' before the name changed.",
+    "fullText": "The original name for the Gundam series was 'Gundom', blending 'gun' and 'freedom'. It was later changed to 'Gundam' to symbolize the giant robots as dams holding back enemies. This metaphor gave the series greater symbolic weight and helped define the mecha genre.",
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_124.png"
   },
   {
     "id": "125",
     "anime": "Akira",
     "title": "Anime Fact 125",
-    "preview": "Akira used 50 original colors made just for the film to push animation boundaries.",
-    "fullText": "Akira is not just a legendary anime film because of its story—it is a visual revolution. The creators designed 50 unique colors specifically for this movie, pushing the limits of animation during its time. From neon lights to post-apocalyptic cityscapes, every frame was crafted with groundbreaking detail. It is no surprise that Akira continues to influence modern animation, sci-fi, and cyberpunk visuals even decades later.",
+    "preview": "Akira used 50 original colors to achieve its iconic and revolutionary animation.",
+    "fullText": "Akira is considered a milestone in anime history not only for its story but for its visuals. The creators developed 50 new colors specifically for the film, allowing it to achieve a unique cyberpunk style that continues to influence modern animation and sci-fi media.",
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_125.png"
   },
   {
     "id": "126",
     "anime": "Boku no Hero Academia",
     "title": "Anime Fact 126",
-    "preview": "Yuga Aoyama's original name was 'Can't Stop Twinkle' and his design was slightly different.",
-    "fullText": "In the early stages of My Hero Academia's development, Yuga Aoyama's character design was already quite close to the final version we see today. The main differences included slightly longer, less spiky hair and a different choice of pants. Interestingly, his original hero name was going to be Can't Stop Twinkle, but it was later changed to Can't Stop Twinkling. These small tweaks helped fine-tune his flamboyant and quirky persona that fans know and love.",
+    "preview": "Yuga Aoyama was first called 'Can’t Stop Twinkle' with a different character design.",
+    "fullText": "In My Hero Academia’s early development, Yuga Aoyama was originally called 'Can’t Stop Twinkle' and had slightly longer, less spiky hair. His hero name and look were eventually refined, enhancing his quirky personality and style in the final version of the anime.",
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_126.png"
   },
   {
     "id": "127",
     "anime": "One Piece",
     "title": "Anime Fact 127",
-    "preview": "Zoro was originally going to be part of Buggy the Clown’s crew in early One Piece drafts.",
-    "fullText": "Before One Piece became the epic we know today, Eiichiro Oda had very different plans for Roronoa Zoro. In the early drafts, Zoro was originally going to be a member of Buggy the Clown's pirate crew. Concept art even showed him as a swordsman serving under Buggy, which would have completely changed the dynamic of the story. Luckily, Oda decided to make Zoro Luffy's first crewmate, setting the stage for one of the most iconic duos in anime history.",
+    "preview": "Zoro was originally meant to be in Buggy’s crew in early One Piece drafts.",
+    "fullText": "Eiichiro Oda originally planned for Zoro to be part of Buggy the Clown’s pirate crew in One Piece. Early concept art showed Zoro working under Buggy, but Oda later made him Luffy’s first crewmate instead, shaping one of anime’s most iconic duos.",
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_127.png"
   }
-
 ]
