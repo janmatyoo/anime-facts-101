@@ -1,4 +1,5 @@
-// app/page.tsx
+export const dynamic = "force-dynamic"
+
 import facts from "../public/facts.json"
 import FactCard from "./components/fact-card"
 import AdBanner from "./components/ad-banner"
