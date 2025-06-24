@@ -33,7 +33,7 @@ export default function AnimeRecommendation() {
             <p className="flex flex-wrap text-xl font-bold text-[#f43d00]">
                 {recommendation.title}
             </p>
-            <p className="text-sm font-bold text-[#133162] mt-1">
+            <p className="flex flex-wrap text-sm font-bold text-[#133162] mt-1">
                 Episodes: {recommendation.episodes}
             </p>
             <p className="text-s text-gray-600 text-left mt-2">
