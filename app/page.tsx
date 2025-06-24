@@ -59,7 +59,10 @@ export default function HomePage() {
                   <p className="flex flex-wrap text-xl font-bold text-[#f43d00]">
                     {recommended.title}
                   </p>
-                  <p className="text-m text-gray-600 text-left">
+                  <p className="text-sm font-bold text-[#133162] mt-1">
+                    Episodes: {recommended.episodes}
+                  </p>
+                  <p className="text-s text-gray-600 text-left mt-2">
                     {recommended.description}
                   </p>
                 </div>
@@ -74,6 +77,8 @@ export default function HomePage() {
                     </div>
                   ))}
                 </div>
+                
+                
 
                 <div className="aspect-video">
                   <iframe

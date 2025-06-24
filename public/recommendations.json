@@ -86,5 +86,166 @@
     ],
     "youtubeId": "NlJZ-YgAt-c",
     "episodes": "37"
+  }, 
+  {
+    "title": "Demon Slayer",
+    "description": "Join Tanjiro’s heroic journey across 55 episodes of stunning visuals, demon battles, and emotional storytelling in this fantasy sensation.",
+    "genres": ["Action", "Adventure", "Supernatural"],
+    "youtubeId": "rDDxPpzXFhM",
+    "episodes": "55"
+  },
+  {
+    "title": "Hunter x Hunter (2011)",
+    "description": "Follow a determined young boy and his friends on an epic 148‑episode adventure through dangerous lands as they pursue dreams and confront darkness.",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "youtubeId": "3wQiyOmAUOA",
+    "episodes": "148"
+  },
+  {
+    "title": "One-Punch Man",
+    "description": "Meet Saitama—the hero who defeats any enemy with a single punch—in this hilarious and action-packed 24‑episode anime phenomenon.",
+    "genres": ["Action", "Comedy", "Superhero"],
+    "youtubeId": "atxYe-nOa9w",
+    "episodes": "24"
+  },
+  {
+    "title": "My Hero Academia",
+    "description": "Follow Deku and Class 1-A across 159 thrilling episodes as they train to become heroes in a world of superpowers and high-stakes battles.",
+    "genres": ["Action", "Superhero", "Shōnen"],
+    "youtubeId": "ZKKCpQZjjbI",
+    "episodes": "159"
+  },
+  {
+    "title": "Spirited Away",
+    "description": "An enchanting film masterpiece where a young girl navigates an otherworldly bathhouse after being spirited away—deep fantasy in one 125‑minute feature.",
+    "genres": ["Fantasy", "Adventure", "Family"],
+    "youtubeId": "ByXuk9QqQkk",
+    "episodes": "1 (Film)"
+  },
+  {
+    "title": "Neon Genesis Evangelion",
+    "description": "Explore existential themes and mecha action in this 26‑episode anime classic that reshaped the sci‑fi genre.",
+    "genres": ["Mecha", "Sci‑Fi", "Psychological"],
+    "youtubeId": "13nSISwxrY4",
+    "episodes": "26"
+  },
+  {
+    "title": "Tokyo Revengers",
+    "description": "Time travel meets gang warfare in this emotional 24‑episode anime about past choices, loyalty, and redemption.",
+    "genres": ["Action", "Drama", "Supernatural"],
+    "youtubeId": "2qbHikwRimU",
+    "episodes": "24"
+  },
+  {
+    "title": "Haikyuu!!",
+    "description": "Spike over emotion and teamwork across 85 episodes of thrilling volleyball matches and character-driven sports drama.",
+    "genres": ["Sports", "Drama", "Shōnen"],
+    "youtubeId": "oI4iygnPFDM",
+    "episodes": "85"
+  },
+  {
+    "title": "Fairy Tail",
+    "description": "Join over 300 episodes of magic, friendship, and guild adventures in this long-running fantasy shōnen series.",
+    "genres": ["Action", "Fantasy", "Adventure"],
+    "youtubeId": "4KSN7mxhiYE",
+    "episodes": "328"
+  },
+  {
+    "title": "Sword Art Online",
+    "description": "Get trapped in a virtual MMORPG world and fight to survive in this action-packed 96‑episode isekai blockbuster.",
+    "genres": ["Isekai", "Action", "Adventure"],
+    "youtubeId": "6ohYYtxfDCg",
+    "episodes": "96"
+  },
+  {
+    "title": "Psycho-Pass",
+    "description": "In a cyberpunk future, a 22‑episode thriller delves into crime, surveillance, and morality through law enforcement and AI.",
+    "genres": ["Sci‑Fi", "Thriller", "Crime"],
+    "youtubeId": "YzuJnyebc40",
+    "episodes": "22"
+  },
+  {
+    "title": "Gintama",
+    "description": "Laugh, cry, and battle across 201 episodes in this genre-bending fusion of comedy, action, and drama set in an alternate Edo period.",
+    "genres": ["Comedy", "Action", "Sci‑Fi"],
+    "youtubeId": "Nmx0ZbPjwbU",
+    "episodes": "201"
+  },
+  {
+    "title": "Jujutsu Kaisen",
+    "description": "Unleash cursed energy in this 47‑episode supernatural action hit where Yuji Itadori battles deadly spirits to save humanity—and his own soul.",
+    "genres": ["Action", "Supernatural", "Dark Fantasy"],
+    "youtubeId": "v8bZVdTgXoY",
+    "episodes": "47"
+  },
+  {
+    "title": "Violet Evergarden",
+    "description": "A visually stunning 13‑episode journey of emotional healing as a former soldier learns to reconnect through heartfelt letters.",
+    "genres": ["Drama", "Fantasy", "Slice of Life"],
+    "youtubeId": "BUfSen2rYQs",
+    "episodes": "13"
+  },
+  {
+    "title": "Erased",
+    "description": "A 12‑episode mystery thriller where a man travels back in time to solve a kidnapping that impacted his childhood.",
+    "genres": ["Mystery", "Thriller", "Supernatural"],
+    "youtubeId": "DwmxEAWjTQQ",
+    "episodes": "12"
+  },
+  {
+    "title": "Toradora!",
+    "description": "Experience 25 episodes of heartfelt high school romance, comedy, and friendship in this fan‑favorite shōjo classic.",
+    "genres": ["Romance", "Comedy", "Slice of Life"],
+    "youtubeId": "ya570uUgQNc",
+    "episodes": "25"
+  },
+  {
+    "title": "Kaiju No. 8",
+    "description": "Join Kafka Hibino as he transforms into a kaiju to battle monstrous threats in this action-packed ongoing sci-fi anime.",
+    "genres": ["Action", "Sci-Fi", "Supernatural"],
+    "youtubeId": "86pUz-brRJQ",
+    "episodes": "12 (ongoing)"
+  },
+  {
+    "title": "Dr. Stone",
+    "description": "Humanity turns to stone—and 3,700 years later, science prodigy Senku launches a new civilization in this 53-episode science adventure.",
+    "genres": ["Adventure", "Sci-Fi", "Shounen"],
+    "youtubeId": "qbthdPHU8FQ",
+    "episodes": "53"
+  },
+  {
+    "title": "The Apothecary Diaries",
+    "description": "A sharp-witted girl solves royal mysteries with herbal knowledge in this beautiful 24-episode historical drama.",
+    "genres": ["Historical", "Mystery", "Drama"],
+    "youtubeId": "TuJWTE5U7Gg",
+    "episodes": "24"
+  },
+  {
+    "title": "Frieren: Beyond Journey's End",
+    "description": "An elf mage reflects on the meaning of life and legacy after her hero’s journey ends in this emotional fantasy saga.",
+    "genres": ["Fantasy", "Drama", "Adventure"],
+    "youtubeId": "ZEkwCGJ3o7M",
+    "episodes": "28 (ongoing)"
+  },
+  {
+    "title": "Spy x Family",
+    "description": "A spy, an assassin, and a telepath form the perfect fake family in this hilarious, heartwarming 37-episode hit anime.",
+    "genres": ["Action", "Comedy", "Slice of Life"],
+    "youtubeId": "U_rWZK_8vUY",
+    "episodes": "37"
+  },
+  {
+    "title": "Mushoku Tensei: Jobless Reincarnation",
+    "description": "A jobless man reincarnates in a fantasy world—reborn with magic, regrets, and a second chance across 49 episodes.",
+    "genres": ["Fantasy", "Isekai", "Drama"],
+    "youtubeId": "_NIp8wvNXmM",
+    "episodes": "49"
+  },
+  {
+    "title": "My Hero Academia: Vigilantes",
+    "description": "Set before the main series, this prequel follows street-level heroes defying the law to protect the people—anime adaptation rumored, not officially released yet.",
+    "genres": ["Action", "Superhero", "Shounen"],
+    "youtubeId": "FxfVMenYZrA",
+    "episodes": "TBA (unconfirmed)"
   }
 ]
