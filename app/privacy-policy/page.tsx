@@ -36,6 +36,10 @@ export default function PrivacyPolicyPage() {
               </p>
 
               <p>
+                This site also features embedded videos from YouTube. Viewing these videos may allow YouTube/Google to collect data through cookies and track user behavior, as governed by their own privacy policies.
+              </p>
+
+              <p>
                 For more details on how Google handles your data, please visit{" "}
                 <a
                   href="https://policies.google.com/technologies/ads"

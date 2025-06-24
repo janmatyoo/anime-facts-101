@@ -3,10 +3,9 @@ import Image from "next/image"
 
 export default function Footer() {
   const footerLinks = [
-    { href: "/", label: "Home" },
-    { href: "/random", label: "Random" },
     { href: "/about", label: "About" },
     { href: "/privacy-policy", label: "Privacy Policy" },
+    { href: "/terms-of-service", label: "Terms of Service" },
   ]
 
   return (

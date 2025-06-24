@@ -13,8 +13,6 @@ export default function Header() {
     { href: "/", label: "Home" },
     { href: "/page/1", label: "All Facts" },
     { href: "/random", label: "Random" },
-    { href: "/about", label: "About" },
-    { href: "/privacy-policy", label: "Privacy Policy" },
   ]
 
   const toggleMenu = () => {

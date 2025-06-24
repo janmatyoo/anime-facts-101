@@ -1,5 +1,6 @@
 'use client'
 
+import { useRouter } from "next/navigation"
 import { useParams } from 'next/navigation'
 import { notFound } from 'next/navigation'
 import Head from 'next/head'
@@ -10,6 +11,18 @@ import AdBanner from '../../components/ad-banner'
 export default function ClientPaginatedPage() {
   const params = useParams()
   const page = Number(params?.page)
+
+  const router = useRouter()
+
+  const handlePrevious = () => {
+    const prevPage = Math.max(1, page - 1)
+    router.push(`/page/${prevPage}`)
+  }
+
+  const handleNext = () => {
+    const nextPage = Math.min(totalPages, page + 1)
+    router.push(`/page/${nextPage}`)
+  }
 
   if (isNaN(page) || page < 1) {
     notFound()
@@ -43,6 +56,7 @@ export default function ClientPaginatedPage() {
           {currentFacts.map((fact, index) => (
             <div key={fact.id}>
               <FactCard
+                id={fact.id}
                 title={fact.title}
                 anime={fact.anime}
                 preview={fact.preview}
@@ -61,13 +75,17 @@ export default function ClientPaginatedPage() {
         {/* Pagination Controls */}
         <div className="flex justify-center items-center gap-4 mt-12">
             {page > 1 && (
-                <a href={`/page/${page - 1}`} className="px-4 py-2 bg-gray-200 rounded">Previous</a>
+                <button onClick={handlePrevious} className="btn-primary  px-1 py-3 text-sm">
+                  Previous
+                </button>
             )}
             <span className="text-gray-700 font-medium flex items-center">
                 Page {page} of {totalPages}
             </span>
             {page < totalPages && (
-                <a href={`/page/${page + 1}`} className="px-4 py-2 bg-gray-200 rounded">Next</a>
+                <button onClick={handleNext} className="btn-primary px-1 py-3 text-sm">
+                  Next
+                </button>
             )}
         </div>
       </div>
