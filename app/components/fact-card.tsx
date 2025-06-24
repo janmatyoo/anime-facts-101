@@ -12,9 +12,10 @@ interface FactCardProps {
   image: string
   href?: string
   size?: "small" | "large"
+  noShadow?: boolean
 }
 
-export default function FactCard({ id, title, anime, preview, image, href = "#", size = "small" }: FactCardProps) {
+export default function FactCard({ id, title, anime, preview, image, href = "#", size = "small", noShadow }: FactCardProps) {
   const router = useRouter()
 
   const handleRandomFact = () => {
@@ -23,8 +24,8 @@ export default function FactCard({ id, title, anime, preview, image, href = "#",
 
   const cardClasses =
     size === "large"
-      ? "bg-white rounded-xl shadow-lg overflow-hidden card-hover max-w-2xl mx-auto"
-      : "bg-white rounded-lg shadow-md overflow-hidden card-hover"
+      ? `bg-white rounded-xl ${noShadow ? "" : "shadow-lg"} overflow-hidden ${noShadow ? "" : "card-hover"} max-w-2xl mx-auto`
+      : `bg-white rounded-lg ${noShadow ? "" : "shadow-md"} overflow-hidden ${noShadow ? "" : "card-hover"}`
 
   const imageClasses = "w-full h-full object-cover"
 

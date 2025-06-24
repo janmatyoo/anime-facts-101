@@ -16,7 +16,7 @@ A clean, responsive anime trivia website featuring daily anime facts, random tri
 ## 🎨 Design System
 
 - **Primary Color**: `#133162` (Dark Blue)
-- **Accent Color**: `#f43d01` (Orange)
+- **Accent Color**: `#f43d00` (Orange)
 - **Background**: White
 - **Text**: `#1a1a1a` (Very Dark Gray)
 - **Typography**: Inter font family

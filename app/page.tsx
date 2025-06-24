@@ -26,9 +26,9 @@ export default function HomePage() {
       <div className="min-h-screen bg-white">
         {/* Hero + Recommendation Section */}
         <section className="py-16 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-[1440px] mx-auto grid grid-cols-1 grid-cols-[1fr_1fr] gap-12 items-start">
+          <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-12 items-start">
             {/* Featured Fact */}
-            <div>
+            <div className="bg-white shadow-md rounded-xl p-6 space-y-4 w-full max-w-full">
               <div className="text-center lg:text-left mb-8 lg:mb-6">
                 <h1 className="text-4xl md:text-5xl font-bold text-[#133162] mb-4">
                   Featured Fact of the Day
@@ -45,39 +45,49 @@ export default function HomePage() {
                 preview={featuredFact.fullText}
                 image={featuredFact.image}
                 size="large"
+                noShadow 
               />
             </div>
 
             {/* Anime Recommendation of the Day */}
-            <div className="bg-white shadow-md rounded-xl p-6 space-y-4 w-full max-w-full">
-              <div className="text-center lg:text-left mb-4">
-                <h2 className="text-4xl md:text-5xl font-bold text-[#133162] mb-4">
-                  Anime to Watch Today
-                </h2>
-                <p className="text-xl font-bold text-orange-500">
-                  {recommended.title}
-                </p>
-                <p className="text-m text-gray-600">
-                  {recommended.description}
-                </p>
+            <div>
+              <div className="bg-white shadow-md rounded-xl p-6 space-y-4 w-full max-w-full">
+                <div className="text-center lg:text-left mb-4">
+                  <h2 className="text-4xl md:text-5xl font-bold text-[#133162] mb-4">
+                    Anime to Watch Today
+                  </h2>
+                  <p className="flex flex-wrap text-xl font-bold text-[#f43d00]">
+                    {recommended.title}
+                  </p>
+                  <p className="text-m text-gray-600 text-left">
+                    {recommended.description}
+                  </p>
+                </div>
+
+                <div className="flex flex-wrap gap-2">
+                  {recommended.genres.map((genre, i) => (
+                    <div key={i} className="flex items-center gap-1">
+                      <span className="text-sm font-bold text-[#f43d00]">{genre}</span>
+                      {i !== recommended.genres.length - 1 && (
+                        <span className="w-1 h-1 bg-[#f43d00] rounded-full"></span>
+                      )}
+                    </div>
+                  ))}
+                </div>
+
+                <div className="aspect-video">
+                  <iframe
+                    className="w-full h-full rounded-lg"
+                    src={`https://www.youtube.com/embed/${recommended.youtubeId}?autoplay=1&mute=1&controls=1&rel=0&showinfo=0&modestbranding=1&loop=1`}
+                    title={recommended.title}
+                    frameBorder="0"
+                    allowFullScreen
+                  ></iframe>
+                </div>
               </div>
 
-              <div className="flex flex-wrap gap-2">
-                {recommended.genres.map((genre, i) => (
-                  <span key={i} className="text-sm font-bold text-orange-500">
-                    {genre}
-                  </span>
-                ))}
-              </div>
-
-              <div className="aspect-video">
-                <iframe
-                  className="w-full h-full rounded-lg"
-                  src={`https://www.youtube.com/embed/${recommended.youtubeId}?autoplay=1&mute=1&controls=1&rel=0&showinfo=0&modestbranding=1&loop=1`}
-                  title={recommended.title}
-                  frameBorder="0"
-                  allowFullScreen
-                ></iframe>
+              <div className="mt-6 lg:mt-8">
+                <AdBanner />
               </div>
             </div>
 

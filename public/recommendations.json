@@ -1,23 +1,11 @@
 [
   {
-    "title": "Fullmetal Alchemist: Brotherhood",
-    "description": "Watch this legendary fantasy masterpiece\u2014brothers Edward and Alphonse Elric face moral dilemmas, alchemy, and epic battles in a 64\u2011episode journey to restore what they\u2019ve lost.",
+    "title": "Tokyo Ghoul",
+    "description": "A college student becomes a half-ghoul after a deadly encounter\u2014facing a hidden world of flesh-eating creatures and inner conflict.",
     "genres": [
       "Action",
-      "Adventure",
-      "Drama",
-      "Fantasy"
-    ],
-    "youtubeId": "KMZBauH47Jo",
-    "episodes": "64"
-  },
-  {
-    "title": "Steins;Gate",
-    "description": "Dive into the mind\u2011bending sci\u2011fi thriller where a geeky lab assistant accidentally invents time travel\u2014and must rewrite fate across 24 intense episodes.",
-    "genres": [
-      "Sci\u2011Fi",
-      "Thriller",
-      "Drama"
+      "Horror",
+      "Supernatural"
     ],
     "youtubeId": "uMeR2W19wT0",
     "episodes": "24"
@@ -27,10 +15,10 @@
     "description": "Blast through space in this 26\u2011episode neo\u2011noir classic\u2014bounty hunters chase fame, fortune\u2014and their pasts across a jazzy galaxy.",
     "genres": [
       "Action",
-      "Sci\u2011Fi",
-      "Neo\u2011Noir"
+      "Sci-Fi",
+      "Drama"
     ],
-    "youtubeId": "qig4KOK2R2g",
+    "youtubeId": "0hfOyOBHIq4",
     "episodes": "26"
   },
   {
@@ -41,19 +29,8 @@
       "Drama",
       "Fantasy"
     ],
-    "youtubeId": "8OkpRK2_gVs",
+    "youtubeId": "d6qCbdXqsOs",
     "episodes": "75"
-  },
-  {
-    "title": "Naruto: Shippuden",
-    "description": "Join Naruto\u2019s epic journey across 500 episodes\u2014packed with shinobi battles, emotional character growth, and the Akatsuki\u2019s looming threat.",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
-    ],
-    "youtubeId": "uXvZlO6qSYk",
-    "episodes": "500"
   },
   {
     "title": "Your Lie in April",
@@ -74,7 +51,7 @@
       "Fantasy",
       "Drama"
     ],
-    "youtubeId": "m4r3KfLrCEw",
+    "youtubeId": "kqBNQEUI8dM",
     "episodes": "13"
   },
   {
@@ -85,7 +62,7 @@
       "Comedy",
       "Supernatural"
     ],
-    "youtubeId": "Bw-5Lka7gPE",
+    "youtubeId": "nTze7vAdRpM",
     "episodes": "25"
   },
   {
@@ -96,7 +73,7 @@
       "Adventure",
       "Fantasy"
     ],
-    "youtubeId": "pOHsdzjZg9w",
+    "youtubeId": "yu-0eh9jdZg",
     "episodes": "1,126+ (ongoing)"
   },
   {
