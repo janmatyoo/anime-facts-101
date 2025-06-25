@@ -1,9 +1,15 @@
+import AdBanner from "../components/ad-banner"
+
 export default function TermsOfServicePage() {
   return (
     <div className="min-h-screen bg-white py-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
           <h1 className="text-4xl font-bold text-[#133162] mb-8 text-center">Terms of Service</h1>
+
+          <div className="mb-2 border border-black">
+            <AdBanner />
+          </div>
 
           <div className="bg-white rounded-xl shadow-lg p-8 md:p-12">
             <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
@@ -54,6 +60,9 @@ export default function TermsOfServicePage() {
           </div>
         </div>
       </div>
-    </div>
+      <div className="mb-2 border border-black">
+        <AdBanner />
+      </div>
+</div>
   );
 }

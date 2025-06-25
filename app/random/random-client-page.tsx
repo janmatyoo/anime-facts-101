@@ -18,6 +18,15 @@ function getRandomFact(facts: AnimeFact[]) {
   return facts[Math.floor(Math.random() * facts.length)]
 }
 
+function shuffleArray<T>(array: T[]): T[] {
+  const arr = [...array]
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  return arr
+}
+
 export default function RandomPage() {
   const [facts, setFacts] = useState<AnimeFact[]>([])
   const [currentFact, setCurrentFact] = useState<AnimeFact | null>(null)
@@ -44,7 +53,8 @@ export default function RandomPage() {
         setCurrentFact(selectedFact)
 
         const others = data.filter(f => f.id !== selectedFact?.id)
-        setRelatedFacts(others.slice(0, 3))
+        const shuffled = shuffleArray(others)
+        setRelatedFacts(shuffled .slice(0, 3))
       })
   }, [factId])
 
@@ -55,7 +65,8 @@ export default function RandomPage() {
     setCurrentFact(random)
 
     const others = facts.filter(f => f.id !== random.id)
-    setRelatedFacts(others.slice(0, 3))
+    const shuffled = shuffleArray(others)
+    setRelatedFacts(shuffled .slice(0, 3))
   }
 
   if (!currentFact) return <div className="p-8 text-center">Loading...</div>
