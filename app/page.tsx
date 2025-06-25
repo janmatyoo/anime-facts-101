@@ -1,10 +1,11 @@
 export const dynamic = "force-dynamic"
 
+import Link from "next/link"
 import facts from "../public/facts.json"
 import FactCard from "./components/fact-card"
 import AdBanner from "./components/ad-banner"
-import Link from "next/link"
 import AnimeRecommendation from "./components/anime-recommendation"
+import FacebookReels from "./components/facebook-reels"
 
 function getRandomFact() {
   return facts[Math.floor(Math.random() * facts.length)]
@@ -43,8 +44,13 @@ export default function HomePage() {
               />
             </div>
           
-          {/* Anime Recommendation of the Day */}
-          <AnimeRecommendation />
+            <div className="space-y-12">
+              {/* Anime Recommendation of the Day */}
+              <AnimeRecommendation />
+
+              {/* Facebook Reels Section */}
+              <FacebookReels />
+            </div>
 
           </div>
         </section>
