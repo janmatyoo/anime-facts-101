@@ -7,7 +7,7 @@ export default function TermsOfServicePage() {
         <div className="mb-12">
           <h1 className="text-4xl font-bold text-[#133162] mb-8 text-center">Terms of Service</h1>
 
-          <div className="mb-2 border border-black">
+          <div className="mb-2">
             <AdBanner />
           </div>
 
@@ -60,7 +60,7 @@ export default function TermsOfServicePage() {
           </div>
         </div>
       </div>
-      <div className="mb-2 border border-black">
+      <div className="mb-2">
         <AdBanner />
       </div>
 </div>

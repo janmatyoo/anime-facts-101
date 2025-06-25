@@ -7,7 +7,7 @@ export default function PrivacyPolicyPage() {
         <div className="mb-12">
           <h1 className="text-4xl font-bold text-[#133162] mb-8 text-center">Privacy Policy</h1>
 
-          <div className="mb-2 border border-black">
+          <div className="mb-2">
             <AdBanner />
           </div>
 
@@ -75,7 +75,7 @@ export default function PrivacyPolicyPage() {
           </div>
         </div>
       </div>
-      <div className="mb-1 border border-black">
+      <div className="mb-1">
         <AdBanner />
       </div>
     </div>
