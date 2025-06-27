@@ -8,7 +8,6 @@ export default function AdminLogin() {
   const router = useRouter()
 
   const handleLogin = async () => {
-    console.log("🔐 Trying to log in with password:", password)
     const res = await fetch("/api/admin/login", {
       method: "POST",
       body: JSON.stringify({ password }),
