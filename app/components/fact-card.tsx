@@ -51,7 +51,7 @@ export default function FactCard({ id, title, anime, preview, image, href = "#",
             See Another Random Fact
           </button>
         ) : (
-          <Link href={`/random?id=${id}`}>
+          <Link href={`/fact/${id}`}>
             <button className="btn-secondary text-sm">Read More</button>
           </Link>
         )}

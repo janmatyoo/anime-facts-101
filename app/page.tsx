@@ -81,7 +81,7 @@ export default function HomePage() {
                     anime={fact.anime}
                     preview={fact.preview}
                     image={fact.image}
-                    href={`/random?id=${fact.id}`}
+                    href={`/fact/${fact.id}`}
                   />
 
                   {/* {(index + 1) % 4 === 0 && (
