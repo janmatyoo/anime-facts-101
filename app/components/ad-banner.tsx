@@ -23,24 +23,28 @@ export default function AdBanner({ className = "", size = "horizontal" }: AdBann
   const { width, height } = sizeMap[size]
 
   useEffect(() => {
-    try {
-      if (window && (window as any).adsbygoogle) {
-        (window as any).adsbygoogle.push({})
+    const adSlot = adRef.current?.querySelector(".adsbygoogle")
+
+    if (adSlot && !(adSlot as any)._adsbygoogle_initialized) {
+      try {
+        if (typeof window !== "undefined" && (window as any).adsbygoogle) {
+          (window as any).adsbygoogle.push({})
+        }
+      } catch (e) {
+        console.error("Adsense error", e)
       }
-    } catch (e) {
-      console.error("Adsense error", e)
     }
   }, [])
 
   return (
     <div
-      className={`mx-auto ${className}`} //border border-black
+      className={`mx-auto ${className}`}
       style={{ width: `${width}px`, height: `${height}px` }}
       ref={adRef}
     >
       <ins  
         className="adsbygoogle"
-        style={{ display: "inline-block", width: `${width}px`, height: `${height}px`}}
+        style={{ display: "inline-block", width: `${width}px`, height: `${height}px` }}
         data-ad-client="ca-pub-1564728634598481"
         data-ad-slot="2942300015"
       />

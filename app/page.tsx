@@ -61,11 +61,11 @@ export default function HomePage() {
         </section>
 
         {/* Ad Banner */}
-        <section className="px-4 sm:px-6 lg:px-8 mb-16">
+        {/* <section className="px-4 sm:px-6 lg:px-8 mb-16">
           <div className="max-w-7xl mx-auto">
             <AdBanner />
           </div>
-        </section>
+        </section> */}
 
         {/* More Facts Grid */}
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
@@ -94,9 +94,9 @@ export default function HomePage() {
             </div>
 
 
-              <div className="max-w-7xl mx-auto mt-10">
+              {/* <div className="max-w-7xl mx-auto mt-10">
                 <AdBanner />
-              </div>
+              </div> */}
 
 
             {/* View All Button */}
