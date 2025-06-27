@@ -160,6 +160,46 @@
     "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_20.png"
   },
   {
+    "id": "21",
+    "anime": "Detective Conan",
+    "title": "Anime Fact 21",
+    "preview": "Shinichi Kudo was featured in campaigns to promote law-abiding behavior in Japan.",
+    "fullText": "Due to his widespread popularity, Shinichi Kudo from Detective Conan was used in official Japanese campaigns to promote law-abiding behavior. His role as a brilliant young detective made him an ideal figure to inspire trust in the justice system and encourage responsible conduct among the public, especially younger audiences.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_21.png"
+  },
+  {
+    "id": "22",
+    "anime": "Pokemon",
+    "title": "Anime Fact 22",
+    "preview": "Pikachu and Meowth have inverse Pokédex numbers 25 and 52 and are cat and mouse rivals.",
+    "fullText": "In the Pokémon series, Pikachu and Meowth share a clever numerical connection. Their Pokédex numbers are inverses of each other, with Pikachu at 25 and Meowth at 52. This mirrors their natural rivalry, since Pikachu is based on a rodent and Meowth on a cat. Their ongoing clash is one of the most iconic hero and villain pairings in anime.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_22.png"
+  },
+  {
+    "id": "23",
+    "anime": "Kuroko's Basketball",
+    "title": "Anime Fact 23",
+    "preview": "Kise only pierced his left ear and joked he'd do the right one next time because it hurt.",
+    "fullText": "In Kuroko's Basketball, Ryota Kise revealed that he only pierced his left ear because the pain was more intense than he expected. He joked that he would pierce the right one next time, highlighting his playful personality. This small detail adds a bit of charm to Kise's stylish and energetic character.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_23.png"
+  },
+  {
+    "id": "24",
+    "anime": "General Anime",
+    "title": "Anime Fact 24",
+    "preview": "Japan has close to 130 schools that specialize in training voice actors for anime.",
+    "fullText": "Japan is home to nearly 130 schools dedicated to training aspiring voice actors for anime, video games, and other media. These institutions offer specialized courses in vocal technique, acting, and studio performance to prepare students for careers in the competitive voice acting industry. The high demand for talented seiyuu reflects the growing influence of anime both in Japan and around the world.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_24.png"
+  },
+  {
+    "id": "25",
+    "anime": "Fullmetal Alchemist",
+    "title": "Anime Fact 25",
+    "preview": "Roy Mustang compares his subordinates to chess pieces, calling himself the King.",
+    "fullText": "In Fullmetal Alchemist, Roy Mustang refers to his team as chess pieces, each chosen for their unique abilities and value to his strategy. Fuery is the Pawn, Falman the Bishop, Havoc the Knight, Breda the Rook, and Hawkeye the Queen. Mustang places himself as the King, symbolizing both his leadership role and reliance on his team in battle and trust. This metaphor highlights the deep bonds and calculated tactics within his unit.",
+    "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/af_25.png"
+  },
+  {
     "id": "124",
     "anime": "Gundam",
     "title": "Anime Fact 124",
