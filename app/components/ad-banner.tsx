@@ -34,13 +34,13 @@ export default function AdBanner({ className = "", size = "horizontal" }: AdBann
 
   return (
     <div
-      className={`mx-auto ${className}`}
+      className={`mx-auto ${className}`} //border border-black
       style={{ width: `${width}px`, height: `${height}px` }}
       ref={adRef}
     >
-      <ins
+      <ins  
         className="adsbygoogle"
-        style={{ display: "inline-block", width: `${width}px`, height: `${height}px` }}
+        style={{ display: "inline-block", width: `${width}px`, height: `${height}px`}}
         data-ad-client="ca-pub-1564728634598481"
         data-ad-slot="2942300015"
       />

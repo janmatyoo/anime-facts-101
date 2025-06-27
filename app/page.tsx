@@ -23,25 +23,30 @@ export default function HomePage() {
         <section className="py-16 px-4 sm:px-6 lg:px-8">
           <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-12 items-start">
             {/* Featured Fact */}
-            <div className="bg-white shadow-md rounded-xl p-6 space-y-4 w-full max-w-full">
-              <div className="text-center lg:text-left mb-8 lg:mb-6">
-                <h1 className="text-3xl md:text-4xl font-bold text-[#133162] mb-4">
-                  Featured Fact of the Day
-                </h1>
-                <p className="text-xl text-gray-600 max-w-2xl mx-auto lg:mx-0">
-                  Discover surprising trivia and hidden insights from your favorite anime series
-                </p>
-              </div>
+            <div>
+              <div className="bg-white shadow-md rounded-xl p-6 space-y-4 w-full max-w-full">
+                <div className="text-center lg:text-left mb-8 lg:mb-6">
+                  <h1 className="text-3xl md:text-4xl font-bold text-[#133162] mb-4">
+                    Featured Fact of the Day
+                  </h1>
+                  <p className="text-xl text-gray-600 max-w-2xl mx-auto lg:mx-0">
+                    Discover surprising trivia and hidden insights from your favorite anime series
+                  </p>
+                </div>
 
-              <FactCard
-                id={featuredFact.id}
-                title={featuredFact.title}
-                anime={featuredFact.anime}
-                preview={featuredFact.fullText}
-                image={featuredFact.image}
-                size="large"
-                noShadow 
-              />
+                <FactCard
+                  id={featuredFact.id}
+                  title={featuredFact.title}
+                  anime={featuredFact.anime}
+                  preview={featuredFact.fullText}
+                  image={featuredFact.image}
+                  size="large"
+                  noShadow 
+                />
+              </div>
+              <div className="col-span-full my-8">
+                <AdBanner size="rectangle" className="mx-auto" />
+              </div>
             </div>
           
             <div className="space-y-12">
@@ -79,14 +84,20 @@ export default function HomePage() {
                     href={`/random?id=${fact.id}`}
                   />
 
-                  {(index + 1) % 4 === 0 && (
+                  {/* {(index + 1) % 4 === 0 && (
                     <div className="col-span-full my-8">
                       <AdBanner size="rectangle" className="mx-auto" />
                     </div>
-                  )}
+                  )} */}
                 </div>
               ))}
             </div>
+
+
+              <div className="max-w-7xl mx-auto mt-10">
+                <AdBanner />
+              </div>
+
 
             {/* View All Button */}
             <div className="text-center mt-10">

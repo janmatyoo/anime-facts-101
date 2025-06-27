@@ -47,7 +47,7 @@ export default function FactCard({ id, title, anime, preview, image, href = "#",
         <p className={`text-gray-600 mb-4 ${size === "large" ? "text-lg" : "text-sm"}`}>{preview}</p>
 
         {size === "large" ? (
-          <button onClick={handleRandomFact} className="btn-primary">
+          <button onClick={handleRandomFact} className="btn-secondary">
             See Another Random Fact
           </button>
         ) : (
