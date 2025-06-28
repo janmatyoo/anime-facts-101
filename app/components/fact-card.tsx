@@ -1,6 +1,5 @@
 "use client"
 
-import { useRouter } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -16,12 +15,6 @@ interface FactCardProps {
 }
 
 export default function FactCard({ id, title, anime, preview, image, href = "#", size = "small", noShadow }: FactCardProps) {
-  const router = useRouter()
-
-  const handleRandomFact = () => {
-    router.push("/random")
-  }
-
   const cardClasses =
     size === "large"
       ? `bg-white rounded-xl ${noShadow ? "" : "shadow-lg"} overflow-hidden ${noShadow ? "" : "card-hover"} max-w-2xl mx-auto`
@@ -46,15 +39,9 @@ export default function FactCard({ id, title, anime, preview, image, href = "#",
         <h3 className={`font-bold text-[#1a1a1a] mb-3 ${size === "large" ? "text-2xl" : "text-lg"}`}>{title}</h3>
         <p className={`text-gray-600 mb-4 ${size === "large" ? "text-lg" : "text-sm"}`}>{preview}</p>
 
-        {size === "large" ? (
-          <button onClick={handleRandomFact} className="btn-secondary">
-            See Another Random Fact
-          </button>
-        ) : (
-          <Link href={`/fact/${id}`}>
-            <button className="btn-secondary text-sm">Read More</button>
-          </Link>
-        )}
+        <Link href={`/fact/${id}`}>
+          <button className="btn-secondary text-sm">Read More</button>
+        </Link>
       </div>
     </div>
   )

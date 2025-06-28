@@ -13,15 +13,51 @@ function generateSitemap() {
       <loc>${BASE_URL}/</loc>
       <changefreq>daily</changefreq>
       <priority>1.0</priority>
+    </url>`,
+    `<url>
+      <loc>${BASE_URL}/random</loc>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+    </url>`,
+    `<url>
+      <loc>${BASE_URL}/facebook-reels</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+    </url>`,
+    `<url>
+      <loc>${BASE_URL}/about</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>`,
+    `<url>
+      <loc>${BASE_URL}/privacy-policy</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.3</priority>
+    </url>`,
+    `<url>
+      <loc>${BASE_URL}/terms-of-service</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.3</priority>
     </url>`
   ]
 
+  // Add paginated pages
   for (let i = 1; i <= totalPages; i++) {
     urls.push(`
     <url>
       <loc>${BASE_URL}/page/${i}</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.7</priority>
+    </url>`)
+  }
+
+  // Add individual fact pages
+  for (const fact of facts) {
+    urls.push(`
+    <url>
+      <loc>${BASE_URL}/fact/${fact.id}</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
     </url>`)
   }
 
@@ -31,7 +67,7 @@ ${urls.join('\n')}
 </urlset>`
 
   fs.writeFileSync(path.join('public', 'sitemap.xml'), sitemap.trim())
-  console.log(`✅ Sitemap generated with ${totalPages} pages`)
+  console.log(`✅ Sitemap generated with ${urls.length} URLs`)
 }
 
 generateSitemap()

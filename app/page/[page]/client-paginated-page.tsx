@@ -28,7 +28,7 @@ export default function ClientPaginatedPage() {
     notFound()
   }
 
-  const FACTS_PER_PAGE = 6
+  const FACTS_PER_PAGE = 9
   const totalPages = Math.ceil(facts.length / FACTS_PER_PAGE)
   if (page > totalPages) {
     notFound()
@@ -63,11 +63,11 @@ export default function ClientPaginatedPage() {
                 image={fact.image}
                 href={`/fact/${fact.id}`}
               />
-              {(index + 1) % 4 === 0 && (
+              {/* {(index + 1) % 4 === 0 && (
                 <div className="col-span-full my-8">
                   <AdBanner size="rectangle" className="mx-auto" />
                 </div>
-              )}
+              )} */}
             </div>
           ))}
         </div>

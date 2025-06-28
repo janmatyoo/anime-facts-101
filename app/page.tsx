@@ -44,9 +44,9 @@ export default function HomePage() {
                   noShadow 
                 />
               </div>
-              <div className="col-span-full my-8">
+              {/* <div className="col-span-full my-8">
                 <AdBanner size="rectangle" className="mx-auto" />
-              </div>
+              </div> */}
             </div>
           
             <div className="space-y-12">

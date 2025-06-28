@@ -5,22 +5,269 @@
       <changefreq>daily</changefreq>
       <priority>1.0</priority>
     </url>
+<url>
+      <loc>https://animefacts101.com/random</loc>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+    </url>
+<url>
+      <loc>https://animefacts101.com/facebook-reels</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+    </url>
+<url>
+      <loc>https://animefacts101.com/about</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+<url>
+      <loc>https://animefacts101.com/privacy-policy</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.3</priority>
+    </url>
+<url>
+      <loc>https://animefacts101.com/terms-of-service</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.3</priority>
+    </url>
 
     <url>
       <loc>https://animefacts101.com/page/1</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.7</priority>
     </url>
 
     <url>
       <loc>https://animefacts101.com/page/2</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.7</priority>
     </url>
 
     <url>
       <loc>https://animefacts101.com/page/3</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.7</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/page/4</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/page/5</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/page/6</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/1</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/2</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/3</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/4</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/5</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/6</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/7</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/8</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/9</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/10</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/11</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/12</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/13</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/14</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/15</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/16</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/17</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/18</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/19</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/20</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/21</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/22</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/23</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/24</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/25</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/26</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/27</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/28</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/29</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/30</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/124</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/125</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/126</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/127</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
     </url>
 </urlset>

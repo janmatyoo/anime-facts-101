@@ -27,6 +27,7 @@ export default function FactDetailClientPage() {
   const [fact, setFact] = useState<AnimeFact | null>(null)
   const [relatedFacts, setRelatedFacts] = useState<AnimeFact[]>([])
   const isMobile = useIsMobile()
+  const RELATED_FACTS = 6
 
   useEffect(() => {
     if (!id) return
@@ -39,7 +40,7 @@ export default function FactDetailClientPage() {
 
         const others = data.filter((f) => f.id !== id)
         const shuffled = shuffleArray(others)
-        setRelatedFacts(shuffled.slice(0, 3))
+        setRelatedFacts(shuffled.slice(0, RELATED_FACTS))
       })
   }, [id])
 
@@ -96,7 +97,21 @@ export default function FactDetailClientPage() {
                   <p key={i} className="mb-4">{para}</p>
                 ))}
               </div>
+              <button
+                onClick={() => {
+                  fetch("/facts.json")
+                    .then((res) => res.json())
+                    .then((data: AnimeFact[]) => {
+                      const otherFacts = data.filter((f) => f.id !== id)
+                      const random = otherFacts[Math.floor(Math.random() * otherFacts.length)]
+                      window.location.href = `/fact/${random.id}`
+                    })
+                }}
+                className="btn-primary px-1 py-3 text-s">
+                Show Me Another Fact →
+            </button>
             </div>
+            
           </div>
         )}
       </div>
