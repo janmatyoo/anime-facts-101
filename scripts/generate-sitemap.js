@@ -15,11 +15,6 @@ function generateSitemap() {
       <priority>1.0</priority>
     </url>`,
     `<url>
-      <loc>${BASE_URL}/random</loc>
-      <changefreq>daily</changefreq>
-      <priority>0.8</priority>
-    </url>`,
-    `<url>
       <loc>${BASE_URL}/facebook-reels</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>

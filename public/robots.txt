@@ -1,9 +1,7 @@
 User-agent: *
 Disallow: /admin
 Disallow: /api
-Disallow: /admin/dashboard
-Disallow: /admin/dashboard/facebook-reels
-Disallow: /admin/dashboard/facts
+Disallow: /random
 Allow: /
 
 Sitemap: https://animefacts101.com/sitemap.xml
