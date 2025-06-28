@@ -101,9 +101,9 @@ export default function PrivacyPolicyPage() {
         </div>
 
         {/* Bottom Ad */}
-        {/* <div className="mb-1">
+        <div className="mb-1">
           <AdBanner />
-        </div> */}
+        </div>
       </div>
     </main>
   )

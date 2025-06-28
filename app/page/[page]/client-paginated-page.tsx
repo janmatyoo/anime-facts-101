@@ -63,11 +63,11 @@ export default function ClientPaginatedPage() {
                 image={fact.image}
                 href={`/fact/${fact.id}`}
               />
-              {/* {(index + 1) % 4 === 0 && (
+              {(index + 1) % 4 === 0 && (
                 <div className="col-span-full my-8">
                   <AdBanner size="rectangle" className="mx-auto" />
                 </div>
-              )} */}
+              )}
             </div>
           ))}
         </div>

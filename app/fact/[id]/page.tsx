@@ -54,9 +54,9 @@ export default function FactDetailClientPage() {
           <h1 className="text-4xl font-bold text-[#133162] mb-4">Anime Fact</h1>
           <p className="text-xl text-gray-600">Enjoy a detailed anime fact below.</p>
         </div>
-        {/* <div className="mb-12">
+        <div className="mb-12">
           <AdBanner />
-        </div> */}
+        </div>
       </div>
 
       {/* Main Fact Card */}
@@ -118,9 +118,9 @@ export default function FactDetailClientPage() {
 
       {/* Bottom Ad and Related Facts */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* <div className="mb-12">
+        <div className="mb-12">
           <AdBanner />
-        </div> */}
+        </div>
 
         <div className="mt-16">
           <h3 className="text-2xl font-bold text-[#133162] text-center mb-8">You Might Also Like</h3>

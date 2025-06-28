@@ -33,6 +33,11 @@ function generateSitemap() {
       <loc>${BASE_URL}/terms-of-service</loc>
       <changefreq>yearly</changefreq>
       <priority>0.3</priority>
+    </url>`,
+    `<url>
+      <loc>${BASE_URL}/contact-us</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.3</priority>
     </url>`
   ]
 

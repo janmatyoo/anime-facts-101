@@ -92,9 +92,9 @@ export default function TermsOfServicePage() {
         </div>
 
         {/* Bottom Ad */}
-        {/* <div className="mb-2">
+        <div className="mb-2">
           <AdBanner />
-        </div> */}
+        </div>
       </div>
     </main>
   )

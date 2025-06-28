@@ -12,7 +12,6 @@ export default function Header() {
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "/page/1", label: "All Facts" },
-    { href: "/random", label: "Random" },
     { href: "/facebook-reels", label: "Reels" },
   ]
 

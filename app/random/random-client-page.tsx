@@ -81,9 +81,9 @@ export default function RandomPage() {
         </div>
 
         {/* Ad Banner Above Fact */}
-        {/* <div className="mb-12">
+        <div className="mb-12">
           <AdBanner />
-        </div> */}
+        </div>
 
         {/* Main Fact Card */}
         <div className="mb-12">
@@ -114,9 +114,9 @@ export default function RandomPage() {
         </div>
 
         {/* Ad Banner Below Fact */}
-        {/* <div className="mb-12">
+        <div className="mb-12">
           <AdBanner />
-        </div> */}
+        </div>
 
         {/* Related Facts */}
         <div>

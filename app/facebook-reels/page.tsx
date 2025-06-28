@@ -53,9 +53,9 @@ export default function FacebookReelsPage() {
         <FacebookReels />
 
         {/* Bottom Ad */}
-        {/* <div className="mt-12">
+        <div className="mt-12">
           <AdBanner />
-        </div> */}
+        </div>
       </div>
     </div>
   )

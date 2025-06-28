@@ -25,6 +25,11 @@
       <changefreq>yearly</changefreq>
       <priority>0.3</priority>
     </url>
+<url>
+      <loc>https://animefacts101.com/contact-us</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.3</priority>
+    </url>
 
     <url>
       <loc>https://animefacts101.com/page/1</loc>
