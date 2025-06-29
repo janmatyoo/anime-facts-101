@@ -50,11 +50,31 @@ export default function RootLayout({
         />
 
         {/* ✅ Google AdSense Script */}
-        <Script
+        {/* <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1564728634598481"
           crossOrigin="anonymous"
           strategy="afterInteractive"
+        /> */}
+        <Script
+          data-grow-initializer=""
+          dangerouslySetInnerHTML={{
+            __html: `
+              !(function() {
+                window.growMe || (window.growMe = function(e) {
+                  window.growMe._.push(e);
+                }, window.growMe._ = []);
+                var e = document.createElement("script");
+                e.type = "text/javascript";
+                e.src = "https://faves.grow.me/main.js";
+                e.defer = true;
+                e.setAttribute("data-grow-faves-site-id", "U2l0ZTo5ZDVlYzdmZi04NjJmLTRiNTMtODk0MC1mOWE2OWFiN2FmMTA=");
+                
+                var t = document.getElementsByTagName("script")[0];
+                t.parentNode.insertBefore(e, t);
+              })();
+            `,
+          }}
         />
 
         <title>Anime Facts 101</title>
