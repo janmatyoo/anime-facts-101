@@ -6,6 +6,7 @@ import Header from "./components/header"
 import Footer from "./components/footer"
 import GrowScript from "./components/grow-script"
 import GoogleAnalytics from "./components/google-analytics-4"
+import AdSenseScript from "./components/adsense-script"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -23,16 +24,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script
+        {/* <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1564728634598481"
           crossOrigin="anonymous"
-        ></script>
+        ></script> */}
         <title>Anime Facts 101</title>
         <meta name="description" content="Discover surprising anime facts, trivia, and hidden insights from your favorite shows and characters." />
         <link rel="icon" href="/favicon.png" />
       </head>
       <body className={`${inter.className} bg-white text-gray-900`}>
+        <AdSenseScript />
         <GrowScript />
         <GoogleAnalytics />
         <Header />
