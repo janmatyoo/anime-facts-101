@@ -41,20 +41,12 @@ export default function RootLayout({
         </Script>
 
         {/* ✅ Grow.me Script */}
-        <Script
+        {/* <Script
           id="grow-me"
           src="https://faves.grow.me/main.js"
           defer
           strategy="afterInteractive"
           data-grow-faves-site-id="U2l0ZTo5ZDVlYzdmZi04NjJmLTRiNTMtODk0MC1mOWE2OWFiN2FmMTA="
-        />
-
-        {/* ✅ Google AdSense Script */}
-        {/* <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1564728634598481"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
         /> */}
         <Script
           data-grow-initializer=""
@@ -75,6 +67,14 @@ export default function RootLayout({
               })();
             `,
           }}
+        />
+
+        {/* ✅ Google AdSense Script */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1564728634598481"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
         />
 
         <title>Anime Facts 101</title>
