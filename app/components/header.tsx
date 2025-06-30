@@ -11,8 +11,8 @@ export default function Header() {
 
   const navLinks = [
     { href: "/", label: "Home" },
-    { href: "/page/1", label: "All Facts" },
-    { href: "/facebook-reels", label: "Reels" },
+    { href: "/page/1", label: "Facts" },
+    { href: "/reels-page/1", label: "Reels" },
   ]
 
   const toggleMenu = () => {
