@@ -36,11 +36,14 @@ export default function FacebookReels() {
           Anime Scenes You Can’t Miss!
         </h2>
         {/* Only show "See More" if NOT already on /facebook-reels */}
-        {pathname !== "/facebook-reels" && (
-          <Link href="/facebook-reels">
+        {/* {pathname !== "/facebook-reels" && (
+          <Link href="/reels-page/1">
             <button className="btn-secondary text-sm">See More →</button>
           </Link>
-        )}
+        )} */}
+        <Link href="/reels-page/1">
+          <button className="btn-secondary text-sm">See More →</button>
+        </Link>
       </div>
 
       <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
