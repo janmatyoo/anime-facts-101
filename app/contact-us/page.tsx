@@ -98,6 +98,32 @@ export default function ContactUsPage() {
                                 <path d="M7.75 2A5.75 5.75 0 0 0 2 7.75v8.5A5.75 5.75 0 0 0 7.75 22h8.5A5.75 5.75 0 0 0 22 16.25v-8.5A5.75 5.75 0 0 0 16.25 2h-8.5Zm0 1.5h8.5A4.25 4.25 0 0 1 20.5 7.75v8.5a4.25 4.25 0 0 1-4.25 4.25h-8.5A4.25 4.25 0 0 1 3.5 16.25v-8.5A4.25 4.25 0 0 1 7.75 3.5Zm8.5 2a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 1.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Z" />
                                 </svg>
                             </a>
+
+                            {/* Pinterest */}
+                            <a
+                                href="https://www.pinterest.com/animefacts101/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Anime Facts 101 on Pinterest"
+                                className="w-12 h-12 bg-[#E60023] rounded-full flex items-center justify-center hover:scale-110 transition-transform"
+                            >
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" className="w-6 h-6">
+                                <path d="M12.04 2C6.65 2 3.19 5.56 3.19 9.82c0 2.12 1.14 4.76 2.97 5.6.28.13.43.07.5-.2.05-.21.18-.74.23-.96.07-.26.03-.35-.15-.58-.58-.68-.95-1.56-.95-2.81 0-3.61 2.72-6.84 7.06-6.84 3.85 0 6.67 2.63 6.67 6.39 0 4.13-2.27 6.99-5.23 6.99-1.63 0-2.84-1.35-2.45-3.01.47-1.99 1.39-4.14 1.39-5.58 0-1.29-.69-2.37-2.12-2.37-1.68 0-3.03 1.74-3.03 4.07 0 1.48.5 2.48.5 2.48s-1.71 7.24-2.02 8.52c-.4 1.63-.06 4.28-.03 4.51 0 .14.2.17.28.07.11-.14 1.52-1.89 1.99-3.62.13-.46.75-2.84.75-2.84.38.72 1.48 1.36 2.66 1.36 3.51 0 6.23-3.21 6.23-7.52C20.8 6.6 17.17 2 12.04 2Z" />
+                            </svg>
+                            </a>
+
+                            {/* X (formerly Twitter) */}
+                            <a
+                                href="https://x.com/AnimeFacts101"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Anime Facts 101 on X"
+                                className="w-12 h-12 bg-black rounded-full flex items-center justify-center hover:scale-110 transition-transform"
+                            >
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" className="w-5 h-5">
+                                <path d="M13.3 10.7 21.9 2h-2.1l-7.1 7.5L6.2 2H2l8.9 12.2L2 22h2.1l7.6-8 6.9 8h4.2l-8.6-11.3Zm-2.7 2.8-.9-1.2L4.3 4h1.3l5.1 5.6.9 1.1 7.3 8.1h-1.3l-5.4-5.9Z" />
+                            </svg>
+                            </a>
                             </div>
                     </section>
 

@@ -3,7 +3,7 @@
     "id": "1",
     "name": "Hisoka Funko Pop",
     "category": "Hunter x Hunter",
-    "type": "Collectible",
+    "type": "Funko Pop",
     "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/hisoka-1.jpg",
     "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/hisoka-2.jpg",
     "link": "https://amzn.to/3GdWh03"
@@ -12,7 +12,7 @@
     "id": "2",
     "name": "Funko POP Animation: Monkey D. Luffy",
     "category": "One Piece",
-    "type": "Collectible",
+    "type": "Funko Pop",
     "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/luffy-1.jpg",
     "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/luffy-2.jpg",
     "link": "https://amzn.to/3I1oyYl"
@@ -21,7 +21,7 @@
     "id": "3",
     "name": "Monkey D. Luffy",
     "category": "One Piece",
-    "type": "Collectible",
+    "type": "Funko Pop",
     "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/luffym-1.jpg",
     "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/luffym-2.jpg",
     "link": "https://amzn.to/3TQnzN2"
@@ -39,7 +39,7 @@
     "id": "5",
     "name": "Jujutsu Kaisen - Satoru Gojo",
     "category": "Jujutsu Kaisen",
-    "type": "Collectible",
+    "type": "Funko Pop",
     "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/gojo-1.jpg",
     "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/gojo-2.jpg",
     "link": "https://amzn.to/4lB5Y7H"
@@ -48,9 +48,144 @@
     "id": "6",
     "name": "Funko POP Anime: One Piece Luffy",
     "category": "One Piece",
-    "type": "Collectible",
+    "type": "Funko Pop",
     "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/luffyo-1.jpg",
     "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/luffyo-2.jpg",
     "link": "https://amzn.to/4lwfglj"
+  },
+  {
+    "id": "7",
+    "name": "Perching Figure Momo Vol.1",
+    "category": "Dandadan",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/momo-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/momo-2.jpg",
+    "link": "https://amzn.to/4errt8x"
+  },
+  {
+    "id": "8",
+    "name": "S.H.Figuarts - Super Saiyan Son Goku",
+    "category": "Dragon Ball Z",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/goku-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/goku-2.jpg",
+    "link": "https://amzn.to/4knRiIb"
+  },
+  {
+    "id": "9",
+    "name": "Pokemon Battle Ready! Figure Set, 6 Pieces",
+    "category": "Pokemon",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/poke-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/poke-2.jpg",
+    "link": "https://amzn.to/44HEzvc"
+  },
+  {
+    "id": "10",
+    "name": "Gundam Aerial, Bandai Spirits HG 1/144 Model Kit",
+    "category": "Gundam",
+    "type": "Model Kit",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/aerial-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/aerial-2.jpg",
+    "link": "https://amzn.to/40l6fDN"
+  },
+  {
+    "id": "11",
+    "name": "Total Anime Izuku Midoriya - 6.5-Inch",
+    "category": "Boku no Hero Academia",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/izuku-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/izuku-2.jpg",
+    "link": "https://amzn.to/44bdlgn"
+  },
+  {
+    "id": "12",
+    "name": "S.H.Figuarts - Roronoa Zoro",
+    "category": "One Piece",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/zoro-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/zoro-2.jpg",
+    "link": "https://amzn.to/44beLHN"
+  },
+  {
+    "id": "13",
+    "name": "ANIME HEROES - Monkey D Luffy",
+    "category": "One Piece",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/luffy1-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/luffy1-2.jpg",
+    "link": "https://amzn.to/4euGciZ"
+  },
+  {
+    "id": "14",
+    "name": "Pokemon Pikachu Plush",
+    "category": "Pokemon",
+    "type": "Plush Toy",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/pikachu-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/pikachu-2.jpg",
+    "link": "https://amzn.to/44dZypq"
+  },
+  {
+    "id": "15",
+    "name": "Pokemon Eevee Plush - Officially Licensed",
+    "category": "Pokemon",
+    "type": "Plush Toy",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/eevee-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/eevee-2.jpg",
+    "link": "https://amzn.to/40vLwNn"
+  },
+  {
+    "id": "16",
+    "name": "Pokemon Bulbasaur Plush - Officially Licensed",
+    "category": "Pokemon",
+    "type": "Plush Toy",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/bulba-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/bulba-2.jpg",
+    "link": "https://amzn.to/4l8lQPh"
+  },
+  {
+    "id": "17",
+    "name": "Funko Pokemon - Charizard 3.75 Inches",
+    "category": "Pokemon",
+    "type": "Funko Pop",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/char-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/char-2.jpg",
+    "link": "https://amzn.to/44rikIF"
+  },
+  {
+    "id": "18",
+    "name": "Funko Pop Animation: JJK - Choso - Jujutsu Kaisen",
+    "category": "Jujutsu Kaisen",
+    "type": "Funko Pop",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/choso-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/choso-2.jpg",
+    "link": "https://amzn.to/3ZYO8mL"
+  },
+  {
+    "id": "19",
+    "name": "Funko Pop Plus Animation - Katsuki Bakugo",
+    "category": "Boku no Hero Academia",
+    "type": "Funko Pop",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/katsuki-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/katsuki-2.jpg",
+    "link": "https://amzn.to/3Gf4n8H"
+  },
+  {
+    "id": "20",
+    "name": "I Paused My Anime To Be Here Otaku Anime Merch Gift T-Shirt",
+    "category": "General",
+    "type": "Clothing",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/otaku-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/otaku-2.jpg",
+    "link": "https://amzn.to/4kiXH7l"
+  },
+  {
+    "id": "21",
+    "name": "Just A Girl Who Loves Anime Ramen And Sketching Japan Anime T-Shirt",
+    "category": "General",
+    "type": "Clothing",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/ramen-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/ramen-2.jpg",
+    "link": "https://amzn.to/3TfEqJ3"
   }
 ]
