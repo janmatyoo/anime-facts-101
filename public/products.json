@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "Hisoka Funko Pop",
+    "category": "Hunter x Hunter",
+    "type": "Collectible",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/hisoka-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/hisoka-2.jpg",
+    "link": "https://amzn.to/3GdWh03"
+  },
+  {
+    "id": "2",
+    "name": "Funko POP Animation: Monkey D. Luffy",
+    "category": "One Piece",
+    "type": "Collectible",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/luffy-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/luffy-2.jpg",
+    "link": "https://amzn.to/3I1oyYl"
+  },
+  {
+    "id": "3",
+    "name": "Monkey D. Luffy",
+    "category": "One Piece",
+    "type": "Collectible",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/luffym-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/luffym-2.jpg",
+    "link": "https://amzn.to/3TQnzN2"
+  },
+  {
+    "id": "4",
+    "name": "Catzilla Cat Japanese Art Funny Cat Gifts",
+    "category": "Funny",
+    "type": "Clothing",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/cat-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/cat-2.jpg",
+    "link": "https://amzn.to/3ImVt9z"
+  },
+  {
+    "id": "5",
+    "name": "Jujutsu Kaisen - Satoru Gojo",
+    "category": "Jujutsu Kaisen",
+    "type": "Collectible",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/gojo-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/gojo-2.jpg",
+    "link": "https://amzn.to/4lB5Y7H"
+  },
+  {
+    "id": "6",
+    "name": "Funko POP Anime: One Piece Luffy",
+    "category": "One Piece",
+    "type": "Collectible",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/luffyo-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/luffyo-2.jpg",
+    "link": "https://amzn.to/4lwfglj"
+  }
+]

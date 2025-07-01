@@ -6,6 +6,7 @@ import FactCard from "./components/fact-card"
 import AdBanner from "./components/ad-banner"
 import AnimeRecommendation from "./components/anime-recommendation"
 import FacebookReels from "./components/facebook-reels"
+import ShopGrid from "./components/shop-grid"
 
 function getRandomFact() {
   return facts[Math.floor(Math.random() * facts.length)]
@@ -54,7 +55,21 @@ export default function HomePage() {
               <AnimeRecommendation />
 
               {/* Facebook Reels Section */}
-              <FacebookReels />
+              {/* <FacebookReels /> */}
+
+              <div>
+                <div className="flex items-center justify-between">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#133162]">
+                    Trending Anime Merch
+                  </h2>
+                  <Link href={`/shop`}>
+                    <button className="btn-secondary px-1 py-3 text-sm">
+                      See More
+                    </button>
+                  </Link>
+                </div>
+                <ShopGrid showFilters={false} limit={3} />
+              </div>
             </div>
 
           </div>
