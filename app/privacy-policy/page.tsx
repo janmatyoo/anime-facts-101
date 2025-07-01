@@ -3,7 +3,7 @@ import AdBanner from "../components/ad-banner"
 export const metadata = {
   title: "Privacy Policy - Anime Facts 101",
   description:
-    "Learn how Anime Facts 101 handles your data, uses cookies, and works with third-party services like Google AdSense.",
+    "Learn how Anime Facts 101 handles your data, uses cookies, and works with third-party services like Google AdSense and affiliate platforms.",
 }
 
 export default function PrivacyPolicyPage() {
@@ -13,7 +13,6 @@ export default function PrivacyPolicyPage() {
         <div className="mb-12">
           <h1 className="text-4xl font-bold text-[#133162] mb-8 text-center">Privacy Policy</h1>
 
-          {/* Top Ad */}
           {/* <div className="mb-8">
             <AdBanner />
           </div> */}
@@ -23,7 +22,7 @@ export default function PrivacyPolicyPage() {
               <section>
                 <p>
                   <strong>Anime Facts 101</strong> respects your privacy. This website uses cookies and third-party services such as
-                  Google AdSense to deliver relevant ads, measure site performance, and improve user experience.
+                  Google AdSense and Amazon Affiliates to deliver relevant ads, track performance, and improve user experience.
                 </p>
               </section>
 
@@ -35,30 +34,56 @@ export default function PrivacyPolicyPage() {
                   <li>Device information</li>
                   <li>General location (non-specific)</li>
                   <li>Browsing behavior (via cookies)</li>
+                  <li>Clicks on affiliate/product links</li>
                 </ul>
               </section>
 
               <section>
                 <h2 className="text-xl font-semibold text-[#133162] mb-2">How We Use This Data</h2>
                 <p>
-                  We use this data to optimize content delivery, measure engagement, and provide more relevant ads.
-                  This helps support the growth of Anime Facts 101 while keeping the content free for everyone.
+                  We use this data to optimize content delivery, measure engagement, and provide more relevant ads or product suggestions.
+                  This helps support the growth of Anime Facts 101 while keeping content free for visitors.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-xl font-semibold text-[#133162] mb-2">Affiliate Links Disclosure</h2>
+                <p>
+                  Some pages, including those under our Shop section, may contain affiliate links (such as Amazon).
+                  If you click these links and make a purchase, we may earn a small commission at no additional cost to you.
+                  These earnings help maintain the site and support our content creation efforts.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-xl font-semibold text-[#133162] mb-2">Personal Information</h2>
                 <p>
-                  We do <strong>not</strong> collect any personally identifiable information unless you explicitly
-                  provide it to us, such as when contacting us via email.
+                  We do <strong>not</strong> collect personally identifiable information unless you explicitly
+                  provide it, such as through direct contact via email or future forms.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-xl font-semibold text-[#133162] mb-2">Third-Party Services</h2>
                 <p>
-                  This site displays ads through Google AdSense, which may use cookies to personalize your ad experience.
-                  Additionally, we embed YouTube videos, which may collect user data under YouTube/Google's privacy policy.
+                  This site uses third-party platforms including:
+                </p>
+                <ul className="list-disc list-inside text-gray-700 space-y-1">
+                  <li>
+                    <strong>Google AdSense</strong>: to show personalized ads
+                  </li>
+                  <li>
+                    <strong>Amazon Affiliates</strong>: to link to anime-related products
+                  </li>
+                  <li>
+                    <strong>YouTube Embeds</strong>: for video content
+                  </li>
+                  <li>
+                    <strong>Supabase</strong>: may be used for admin data and content management
+                  </li>
+                </ul>
+                <p>
+                  These services may collect their own data in accordance with their respective privacy policies.
                 </p>
               </section>
 
@@ -74,7 +99,15 @@ export default function PrivacyPolicyPage() {
                   >
                     Google’s Privacy & Terms
                   </a>
-                  .
+                  . For affiliate services like Amazon, see{" "}
+                  <a
+                    href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#f43d01] hover:text-[#d63401] underline"
+                  >
+                    Amazon’s Privacy Notice
+                  </a>.
                 </p>
               </section>
 

@@ -2,10 +2,14 @@
 const fs = require('fs')
 const path = require('path')
 const facts = require('../public/facts.json')
+const reels = require('../public/facebook-reels.json')
 
 const BASE_URL = 'https://animefacts101.com'
-const FACTS_PER_PAGE = 6
-const totalPages = Math.ceil(facts.length / FACTS_PER_PAGE)
+const FACTS_PER_PAGE = 9
+const REELS_PER_PAGE = 10
+
+const totalFactPages = Math.ceil(facts.length / FACTS_PER_PAGE)
+const totalReelPages = Math.ceil(reels.length / REELS_PER_PAGE)
 
 function generateSitemap() {
   let urls = [
@@ -15,9 +19,9 @@ function generateSitemap() {
       <priority>1.0</priority>
     </url>`,
     `<url>
-      <loc>${BASE_URL}/facebook-reels</loc>
+      <loc>${BASE_URL}/shop</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
+      <priority>0.8</priority>
     </url>`,
     `<url>
       <loc>${BASE_URL}/about</loc>
@@ -41,13 +45,23 @@ function generateSitemap() {
     </url>`
   ]
 
-  // Add paginated pages
-  for (let i = 1; i <= totalPages; i++) {
+  // Add paginated fact pages
+  for (let i = 1; i <= totalFactPages; i++) {
     urls.push(`
     <url>
       <loc>${BASE_URL}/page/${i}</loc>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
+    </url>`)
+  }
+
+  // Add paginated reel pages
+  for (let i = 1; i <= totalReelPages; i++) {
+    urls.push(`
+    <url>
+      <loc>${BASE_URL}/reels-page/${i}</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
     </url>`)
   }
 
