@@ -71,6 +71,20 @@ export default function ArticleDetailPage() {
           rel="canonical"
           href={`https://animefacts101.com/articles/${article.id}`}
         />
+        <title>{article.title} | Anime Facts 101</title>
+
+        {/* ✅ Open Graph for Facebook */}
+        <meta property="og:title" content={`${article.title} | Anime Facts 101`} />
+        <meta
+          property="og:description"
+          content={article.details?.[0]?.details.slice(0, 160)}
+        />
+        <meta property="og:image" content={article.card_thumbnail} />
+        <meta
+          property="og:url"
+          content={`https://animefacts101.com/articles/${article.id}`}
+        />
+        <meta property="og:type" content="article" />
       </Head>
 
       <div className="min-h-screen bg-white py-16 px-4 sm:px-6 lg:px-8 text-black">
