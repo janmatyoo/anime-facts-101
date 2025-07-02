@@ -54,7 +54,7 @@ export default function ShopGrid({
   return (
     <div>
       {showFilters && (
-        <div className="sticky top-0 bg-white z-10 py-4 space-y-4">
+        <div className="sticky top-16 bg-white z-10 py-4 space-y-4">
           <div className="flex flex-wrap justify-center gap-3">
             {types.map(type => (
               <button

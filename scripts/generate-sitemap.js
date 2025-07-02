@@ -3,13 +3,16 @@ const fs = require('fs')
 const path = require('path')
 const facts = require('../public/facts.json')
 const reels = require('../public/facebook-reels.json')
+const articles = require('../public/articles.json')
 
 const BASE_URL = 'https://animefacts101.com'
 const FACTS_PER_PAGE = 9
 const REELS_PER_PAGE = 10
+const ARTICLES_PER_PAGE = 9
 
 const totalFactPages = Math.ceil(facts.length / FACTS_PER_PAGE)
 const totalReelPages = Math.ceil(reels.length / REELS_PER_PAGE)
+const totalArticlePages = Math.ceil(articles.length / ARTICLES_PER_PAGE)
 
 function generateSitemap() {
   let urls = [
@@ -45,7 +48,7 @@ function generateSitemap() {
     </url>`
   ]
 
-  // Add paginated fact pages
+  // Paginated fact pages
   for (let i = 1; i <= totalFactPages; i++) {
     urls.push(`
     <url>
@@ -55,7 +58,7 @@ function generateSitemap() {
     </url>`)
   }
 
-  // Add paginated reel pages
+  // Paginated reel pages
   for (let i = 1; i <= totalReelPages; i++) {
     urls.push(`
     <url>
@@ -65,11 +68,31 @@ function generateSitemap() {
     </url>`)
   }
 
-  // Add individual fact pages
+  // Paginated article pages
+  for (let i = 1; i <= totalArticlePages; i++) {
+    urls.push(`
+    <url>
+      <loc>${BASE_URL}/articles-page/${i}</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>`)
+  }
+
+  // Individual fact pages
   for (const fact of facts) {
     urls.push(`
     <url>
       <loc>${BASE_URL}/fact/${fact.id}</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>`)
+  }
+
+  // Individual article pages
+  for (const article of articles) {
+    urls.push(`
+    <url>
+      <loc>${BASE_URL}/articles/${article.id}</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>`)
