@@ -344,7 +344,19 @@
     </url>
 
     <url>
-      <loc>https://animefacts101.com/articles/1</loc>
+      <loc>https://animefacts101.com/articles/odas-original-plan-for-one-piece</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/articles/5-hidden-anime-easter-eggs-you-definitely-missed</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/articles/top-5-saddest-anime-endings</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>

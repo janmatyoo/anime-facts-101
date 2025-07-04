@@ -97,6 +97,13 @@ export default function ClientPaginatedArticlesPage() {
               className="border rounded-xl shadow hover:shadow-lg transition-all p-4 bg-white flex flex-col h-full"
             >
               <div>
+                
+                <div className="mb-2">
+                  <span className={`text-xs font-medium px-2 py-1 rounded-full ${categoryColors[article.category] || 'bg-gray-100 text-gray-800'}`}>
+                    {article.category}
+                  </span>
+                </div>
+
                 <Image
                   src={article.card_thumbnail}
                   alt={article.title}
@@ -105,12 +112,6 @@ export default function ClientPaginatedArticlesPage() {
                   className="rounded-lg mb-4 object-cover w-full h-48"
                 />
                 <h2 className="text-xl font-semibold mb-2">{article.title}</h2>
-
-                <div className="mb-2">
-                  <span className={`text-xs font-medium px-2 py-1 rounded-full ${categoryColors[article.category] || 'bg-gray-100 text-gray-800'}`}>
-                    {article.category}
-                  </span>
-                </div>
 
                 <div className="mt-2 text-xs text-gray-400">
                   {article.date_created} · {article.read_duration} min read
