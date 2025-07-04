@@ -62,6 +62,12 @@
     </url>
 
     <url>
+      <loc>https://animefacts101.com/page/6</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+
+    <url>
       <loc>https://animefacts101.com/reels-page/1</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -315,6 +321,66 @@
 
     <url>
       <loc>https://animefacts101.com/fact/40</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/41</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/42</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/43</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/44</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/45</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/46</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/47</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/48</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/49</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/50</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>
