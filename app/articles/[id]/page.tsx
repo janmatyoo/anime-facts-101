@@ -1,10 +1,9 @@
 import { notFound } from 'next/navigation'
+import articles from '../../../public/articles.json'
 import AdBanner from '../../components/ad-banner'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Metadata } from 'next'
-import { promises as fs } from 'fs'
-import path from 'path'
 
 const categoryColors: Record<string, string> = {
   'News': 'bg-blue-100 text-blue-800',
@@ -19,18 +18,10 @@ const categoryColors: Record<string, string> = {
   'All': 'bg-gray-100 text-gray-800',
 }
 
-// ✅ Helper to load articles
-async function getArticles() {
-  const filePath = path.join(process.cwd(), 'public', 'articles.json')
-  const fileData = await fs.readFile(filePath, 'utf8')
-  return JSON.parse(fileData)
-}
 
-// ✅ Open Graph metadata generator
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params
-  const articles = await getArticles()
-  const article = articles.find((a: any) => a.id === id)
+  const article = articles.find((a) => a.id === id)
   if (!article) return {}
 
   const description = article.details?.[0]?.details.slice(0, 160) || article.overview
@@ -62,24 +53,27 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   }
 }
 
-// ✅ Actual page rendering
 export default async function ArticleDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params
-  const articles = await getArticles()
   const article = articles.find((a) => a.id === id)
   if (!article) return notFound()
 
   const relatedArticles = articles
     .filter((a) => a.id !== article.id && a.category === article.category)
     .concat(
-      articles.filter((a) => a.id !== article.id && a.category !== article.category).sort(() => Math.random() - 0.5)
+      articles.filter((a) => a.id !== article.id && a.category !== article.category)
+        .sort(() => Math.random() - 0.5)
     )
     .slice(0, 3)
 
   return (
     <div className="min-h-screen bg-white py-16 px-4 sm:px-6 lg:px-8 text-black">
       <div className="max-w-3xl mx-auto">
-        <div className={`text-xs font-medium inline-block px-2 py-1 rounded-full mb-2 ${categoryColors[article.category] || 'bg-gray-100 text-gray-800'}`}>
+        <div
+          className={`text-xs font-medium inline-block px-2 py-1 rounded-full mb-2 ${
+            categoryColors[article.category] || 'bg-gray-100 text-gray-800'
+          }`}
+        >
           {article.category}
         </div>
 
@@ -93,6 +87,7 @@ export default async function ArticleDetailPage({ params }: { params: Promise<{ 
           {article.details.map((section, index) => (
             <div key={index}>
               <h2 className="text-3xl font-semibold mb-5 text-[#133162]">{section.header_title}</h2>
+
               {section.image && (
                 <Image
                   src={section.image}
@@ -102,6 +97,7 @@ export default async function ArticleDetailPage({ params }: { params: Promise<{ 
                   className="rounded-lg mb-4 w-full object-cover"
                 />
               )}
+
               <div className="text-gray-800 leading-relaxed text-lg mb-10">
                 {section.details.split('\n\n').map((para: string, i: number) => (
                   <p key={i} className="mb-4">{para}</p>
@@ -121,9 +117,16 @@ export default async function ArticleDetailPage({ params }: { params: Promise<{ 
           <h2 className="text-2xl font-bold text-[#133162] mb-6 px-4">See More Articles</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
             {relatedArticles.map((related) => (
-              <div key={related.id} className="border rounded-xl shadow hover:shadow-lg transition-all p-4 bg-white flex flex-col h-full">
+              <div
+                key={related.id}
+                className="border rounded-xl shadow hover:shadow-lg transition-all p-4 bg-white flex flex-col h-full"
+              >
                 <Link href={`/articles/${related.id}`} className="block">
-                  <div className={`text-xs font-medium inline-block px-2 py-1 rounded-full mb-2 ${categoryColors[related.category] || 'bg-gray-100 text-gray-800'}`}>
+                  <div
+                    className={`text-xs font-medium inline-block px-2 py-1 rounded-full mb-2 ${
+                      categoryColors[related.category] || 'bg-gray-100 text-gray-800'
+                    }`}
+                  >
                     {related.category}
                   </div>
 
