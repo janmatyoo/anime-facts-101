@@ -4,20 +4,7 @@ import AdBanner from '../../components/ad-banner'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Metadata } from 'next'
-
-const categoryColors: Record<string, string> = {
-  'News': 'bg-blue-100 text-blue-800',
-  'Trivia': 'bg-green-100 text-green-800',
-  'Behind the Scenes': 'bg-yellow-100 text-yellow-800',
-  'Lore': 'bg-purple-100 text-purple-800',
-  'Lists & Rankings': 'bg-pink-100 text-pink-800',
-  'Culture & History': 'bg-indigo-100 text-indigo-800',
-  'Fan Theories': 'bg-red-100 text-red-800',
-  'Character Analysis': 'bg-teal-100 text-teal-800',
-  'Movies': 'bg-orange-100 text-orange-800',
-  'All': 'bg-gray-100 text-gray-800',
-}
-
+import categoryColors from '../../lib/categoryColors'
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params
@@ -67,93 +54,105 @@ export default async function ArticleDetailPage({ params }: { params: Promise<{ 
     .slice(0, 3)
 
   return (
-    <div className="min-h-screen bg-white py-16 px-4 sm:px-6 lg:px-8 text-black">
-      <div className="max-w-3xl mx-auto">
-        <div
-          className={`text-xs font-medium inline-block px-2 py-1 rounded-full mb-2 ${
-            categoryColors[article.category] || 'bg-gray-100 text-gray-800'
-          }`}
-        >
-          {article.category}
+    <div className="min-h-screen bg-white text-black overflow-hidden">
+      <div className="w-full max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Article Section */}
+        <section className="py-16">
+          <div className="max-w-3xl mx-auto">
+            <div className={`text-xs font-medium inline-block px-2 py-1 rounded-full mb-2 ${
+              categoryColors[article.category] || 'bg-gray-100 text-gray-800'
+            }`}>
+              {article.category}
+            </div>
+
+            <h1 className="text-3xl font-bold mb-2 text-[#133162]">{article.title}</h1>
+            <div className="text-xs text-gray-400 mb-4">
+              {article.date_created} · {article.read_duration} min read
+            </div>
+            <p className="text-gray-800 leading-relaxed text-lg mb-10">{article.overview}</p>
+
+            <div className="space-y-8">
+              {article.details.map((section, index) => (
+                <div key={index}>
+                  <h2 className="text-3xl font-semibold mb-5 text-[#133162]">{section.header_title}</h2>
+
+                  {section.image && (
+                    <div className="relative w-full aspect-[2/1] mb-4 rounded-lg overflow-hidden">
+                      <Image
+                        src={section.image}
+                        alt={section.header_title}
+                        fill
+                        className="object-cover"
+                        sizes="100vw"
+                        priority
+                      />
+                    </div>
+                  )}
+
+                  <div className="text-gray-800 leading-relaxed text-lg mb-10">
+                    {section.details.split('\n\n').map((para: string, i: number) => (
+                      <p key={i} className="mb-4">{para}</p>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Ad Banner */}
+        <div className="my-10">
+          <AdBanner />
         </div>
 
-        <h1 className="text-3xl font-bold mb-2 text-[#133162]">{article.title}</h1>
-        <div className="text-xs text-gray-400 mb-4">
-          {article.date_created} · {article.read_duration} min read
-        </div>
-        <p className="text-gray-800 leading-relaxed text-lg mb-10">{article.overview}</p>
+        {/* Related Articles */}
+        {relatedArticles.length > 0 && (
+          <section className="mt-16">
+            <div className="max-w-7xl mx-auto">
+              <h2 className="text-2xl font-bold text-[#133162] mb-6">See More Articles</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {relatedArticles.map((related) => (
+                  <div
+                    key={related.id}
+                    className="border rounded-xl shadow hover:shadow-lg transition-all p-4 bg-white flex flex-col h-full"
+                  >
+                    <Link href={`/articles/${related.id}`} className="block">
+                      <div className={`text-xs font-medium inline-block px-2 py-1 rounded-full mb-2 ${
+                        categoryColors[related.category] || 'bg-gray-100 text-gray-800'
+                      }`}>
+                        {related.category}
+                      </div>
 
-        <div className="space-y-8">
-          {article.details.map((section, index) => (
-            <div key={index}>
-              <h2 className="text-3xl font-semibold mb-5 text-[#133162]">{section.header_title}</h2>
+                      <div className="relative w-full aspect-[2/1] mb-4 rounded-lg overflow-hidden">
+                        <Image
+                          src={related.card_thumbnail}
+                          alt={related.title}
+                          fill
+                          className="object-cover"
+                          sizes="100vw"
+                          priority
+                        />
+                      </div>
 
-              {section.image && (
-                <Image
-                  src={section.image}
-                  alt={section.header_title}
-                  width={800}
-                  height={400}
-                  className="rounded-lg mb-4 w-full object-cover"
-                />
-              )}
+                      <h2 className="text-xl font-semibold mb-2">{related.title}</h2>
+                    </Link>
 
-              <div className="text-gray-800 leading-relaxed text-lg mb-10">
-                {section.details.split('\n\n').map((para: string, i: number) => (
-                  <p key={i} className="mb-4">{para}</p>
+                    <div className="text-xs text-gray-400 mt-auto">
+                      {related.date_created} · {related.read_duration} min read
+                    </div>
+
+                    <div className="pt-4">
+                      <Link href={`/articles/${related.id}`}>
+                        <span className="btn-primary text-xs px-2 py-1 inline-block">Read More →</span>
+                      </Link>
+                    </div>
+                  </div>
                 ))}
               </div>
             </div>
-          ))}
-        </div>
+          </section>
+        )}
       </div>
-
-      <div className="mt-5 mb-5">
-        <AdBanner />
-      </div>
-
-      {relatedArticles.length > 0 && (
-        <div className="max-w-7xl mx-auto mt-16">
-          <h2 className="text-2xl font-bold text-[#133162] mb-6 px-4">See More Articles</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
-            {relatedArticles.map((related) => (
-              <div
-                key={related.id}
-                className="border rounded-xl shadow hover:shadow-lg transition-all p-4 bg-white flex flex-col h-full"
-              >
-                <Link href={`/articles/${related.id}`} className="block">
-                  <div
-                    className={`text-xs font-medium inline-block px-2 py-1 rounded-full mb-2 ${
-                      categoryColors[related.category] || 'bg-gray-100 text-gray-800'
-                    }`}
-                  >
-                    {related.category}
-                  </div>
-
-                  <Image
-                    src={related.card_thumbnail}
-                    alt={related.title}
-                    width={600}
-                    height={300}
-                    className="rounded-lg mb-4 object-cover w-full h-48"
-                  />
-                  <h2 className="text-xl font-semibold mb-2">{related.title}</h2>
-                </Link>
-
-                <div className="text-xs text-gray-400 mt-auto">
-                  {related.date_created} · {related.read_duration} min read
-                </div>
-
-                <div className="pt-4">
-                  <Link href={`/articles/${related.id}`}>
-                    <span className="btn-primary text-xs px-2 py-1 inline-block">Read More →</span>
-                  </Link>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
     </div>
   )
 }

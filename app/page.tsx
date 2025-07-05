@@ -2,11 +2,14 @@ export const dynamic = "force-dynamic"
 
 import Link from "next/link"
 import facts from "../public/facts.json"
+import articles from "../public/articles.json"
 import FactCard from "./components/fact-card"
 import AdBanner from "./components/ad-banner"
 import AnimeRecommendation from "./components/anime-recommendation"
-import FacebookReels from "./components/facebook-reels"
 import ShopGrid from "./components/shop-grid"
+import Image from "next/image"
+import categoryColors from './lib/categoryColors'
+
 
 function getRandomFact() {
   return facts[Math.floor(Math.random() * facts.length)]
@@ -17,10 +20,61 @@ export default function HomePage() {
   const shuffledFacts = [...facts].sort(() => 0.5 - Math.random())
   const gridFacts = shuffledFacts.slice(0, 6)
 
+  const sortedArticles = [...articles].sort((a, b) =>
+    new Date(b.date_created).getTime() - new Date(a.date_created).getTime()
+  )
+  const latestArticles = sortedArticles.slice(0, 3)
+
   return (
     <div className="min-h-screen bg-white overflow-x-hidden">
       <div className="min-h-screen bg-white">
-        {/* Hero + Recommendation Section */}
+        {/* ✅ Latest Articles Section */}
+        <section className="pt-16">
+          <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-[#133162] mb-6">Latest Articles</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {latestArticles.map((article) => (
+                <div
+                  key={article.id}
+                  className="border rounded-xl shadow hover:shadow-lg transition-all p-4 bg-white flex flex-col h-full"
+                >
+                  <Link href={`/articles/${article.id}`} className="block">
+                    <div className={`text-xs font-medium inline-block px-2 py-1 rounded-full mb-2 ${
+                      categoryColors[article.category] || 'bg-gray-100 text-gray-800'
+                    }`}>
+                      {article.category}
+                    </div>
+
+                    <div className="relative w-full aspect-[2/1] mb-4 rounded-lg overflow-hidden">
+                      <Image
+                        src={article.card_thumbnail}
+                        alt={article.title}
+                        fill
+                        className="object-cover"
+                        sizes="100vw"
+                        priority
+                      />
+                    </div>
+
+                    <h2 className="text-xl font-semibold mb-2">{article.title}</h2>
+                  </Link>
+
+                  <div className="text-xs text-gray-400 mt-auto">
+                    {article.date_created} · {article.read_duration} min read
+                  </div>
+
+                  <div className="pt-4">
+                    <Link href={`/articles/${article.id}`}>
+                      <span className="btn-primary text-xs px-2 py-1 inline-block">Read More →</span>
+                    </Link>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ✅ Featured Fact + Right Content */}
         <section className="py-16 px-4 sm:px-6 lg:px-8">
           <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-12 items-start">
             {/* Featured Fact */}
@@ -51,11 +105,7 @@ export default function HomePage() {
             </div>
           
             <div className="space-y-12">
-              {/* Anime Recommendation of the Day */}
               <AnimeRecommendation />
-
-              {/* Facebook Reels Section */}
-              {/* <FacebookReels /> */}
 
               <div>
                 <div className="flex items-center justify-between">
@@ -71,7 +121,6 @@ export default function HomePage() {
                 <ShopGrid showFilters={false} limit={3} />
               </div>
             </div>
-
           </div>
         </section>
 
@@ -98,7 +147,6 @@ export default function HomePage() {
                     image={fact.image}
                     href={`/fact/${fact.id}`}
                   />
-
                   {(index + 1) % 4 === 0 && (
                     <div className="col-span-full my-8">
                       <AdBanner size="rectangle" className="mx-auto" />
@@ -108,13 +156,10 @@ export default function HomePage() {
               ))}
             </div>
 
+            <div className="max-w-7xl mx-auto mt-10">
+              <AdBanner />
+            </div>
 
-              <div className="max-w-7xl mx-auto mt-10">
-                <AdBanner />
-              </div>
-
-
-            {/* View All Button */}
             <div className="text-center mt-10">
               <Link
                 href="/page/1"
