@@ -107,7 +107,7 @@ export default async function ArticleDetailPage({ params }: { params: Promise<{ 
 
         {/* Related Articles */}
         {relatedArticles.length > 0 && (
-          <section className="mt-16">
+          <section className="mt-16 mb-10">
             <div className="max-w-7xl mx-auto">
               <h2 className="text-2xl font-bold text-[#133162] mb-6">See More Articles</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
