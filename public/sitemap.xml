@@ -432,4 +432,10 @@
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>
+
+    <url>
+      <loc>https://animefacts101.com/articles/frieren-beyond-journeys-end-season-2</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
 </urlset>
