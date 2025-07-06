@@ -92,13 +92,17 @@ export default function ClientPaginatedArticlesPage() {
                   </span>
                 </div>
 
-                <Image
-                  src={article.card_thumbnail}
-                  alt={article.title}
-                  width={600}
-                  height={300}
-                  className="rounded-lg mb-4 object-cover w-full h-48"
-                />
+                <div className="relative w-full h-auto aspect-[2/1] mb-4 rounded-lg overflow-hidden">
+                  <Image
+                    src={article.card_thumbnail}
+                    alt={article.title}
+                    fill
+                    className="object-cover"
+                    sizes="100vw"
+                    priority
+                  />
+                </div>
+                
                 <h2 className="text-xl font-semibold mb-2">{article.title}</h2>
 
                 <div className="mt-2 text-xs text-gray-400">

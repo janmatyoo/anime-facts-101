@@ -45,7 +45,7 @@ export default function HomePage() {
                       {article.category}
                     </div>
 
-                    <div className="relative w-full aspect-[2/1] mb-4 rounded-lg overflow-hidden">
+                    <div className="relative w-full h-auto aspect-[2/1] mb-4 rounded-lg overflow-hidden">
                       <Image
                         src={article.card_thumbnail}
                         alt={article.title}

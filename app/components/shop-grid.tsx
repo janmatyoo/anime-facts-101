@@ -5,17 +5,8 @@ import Link from "next/link"
 import products from "../../public/products.json"
 import "keen-slider/keen-slider.min.css"
 import { useKeenSlider } from "keen-slider/react"
-import { useState } from "react"
-import {
-  ShoppingCart,
-  Shirt,
-  Boxes,
-  Tag,
-  BookOpen,
-  Sparkles,
-  MonitorSmartphone,
-  Sun,
-} from "lucide-react"
+import { ShoppingCart} from "lucide-react"
+import { useEffect, useState } from "react"
 
 interface Product {
   id: string
@@ -25,16 +16,6 @@ interface Product {
   link: string
   category: string
   type: string
-}
-
-const typeIcons: Record<string, React.ReactNode> = {
-  Collectible: <Boxes className="w-4 h-4 inline-block mr-1" />,
-  Clothing: <Shirt className="w-4 h-4 inline-block mr-1" />,
-  Accessories: <Tag className="w-4 h-4 inline-block mr-1" />,
-  Manga: <BookOpen className="w-4 h-4 inline-block mr-1" />,
-  Cosplay: <Sparkles className="w-4 h-4 inline-block mr-1" />,
-  "Tech Gear": <MonitorSmartphone className="w-4 h-4 inline-block mr-1" />,
-  Stationery: <Sun className="w-4 h-4 inline-block mr-1" />,
 }
 
 export default function ShopGrid({
@@ -94,7 +75,6 @@ export default function ShopGrid({
                     : "bg-white text-gray-700 border-gray-300 hover:bg-gray-100"
                 }`}
               >
-                {typeIcons[type] || null}
                 {type}
               </button>
             ))}
@@ -146,6 +126,14 @@ function ProductCard({ product }: { product: Product }) {
     loop: true,
     mode: "snap",
   })
+
+  const [hasMounted, setHasMounted] = useState(false)
+
+  useEffect(() => {
+    setHasMounted(true)
+  }, [])
+
+  if (!hasMounted) return null // Prevent hydration mismatch
 
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition flex flex-col">

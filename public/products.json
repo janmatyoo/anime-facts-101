@@ -187,5 +187,221 @@
     "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/ramen-1.jpg",
     "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/ramen-2.jpg",
     "link": "https://amzn.to/3TfEqJ3"
+  },
+  {
+    "id": "22",
+    "name": "Funko Pop! Animation: Frieren Beyond Journeys End - Frieren",
+    "category": "Frieren",
+    "type": "Funko Pop",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/22-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/22-2.jpg",
+    "link": "https://amzn.to/44Mo29b"
+  },
+  {
+    "id": "23",
+    "name": "Funko Pop! Animation: Frieren Beyond Journeys End - Fern",
+    "category": "Frieren",
+    "type": "Funko Pop",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/23-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/23-2.jpg",
+    "link": "https://amzn.to/46sbiWw"
+  },
+  {
+    "id": "24",
+    "name": "Cool graphic Chill day with Frieren T-Shirt",
+    "category": "Frieren",
+    "type": "Clothing",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/24-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/24-2.jpg",
+    "link": "https://amzn.to/4eJI8Ve"
+  },
+  {
+    "id": "25",
+    "name": "Frieren Name Shirt Anime Manga Video Game Men Women T-Shirt",
+    "category": "Frieren",
+    "type": "Clothing",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/25-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/25-2.jpg",
+    "link": "https://amzn.to/4lgGCMI"
+  },
+  {
+    "id": "26",
+    "name": "Cool graphic Chill day with frieren Raglan Baseball Tee",
+    "category": "Frieren",
+    "type": "Clothing",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/26-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/26-2.jpg",
+    "link": "https://amzn.to/44OqnAz"
+  },
+  {
+    "id": "27",
+    "name": "Frieren Beyond Journey's End, Anime T-Shirt",
+    "category": "Frieren",
+    "type": "Clothing",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/27-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/27-2.jpg",
+    "link": "https://amzn.to/4lFAjCb"
+  },
+  {
+    "id": "28",
+    "name": "Frieren Cosplay Wig with Earrings White Ponytail",
+    "category": "Frieren",
+    "type": "Clothing",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/28-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/28-2.jpg",
+    "link": "https://amzn.to/3IfHC5e"
+  },
+  {
+    "id": "29",
+    "name": "SEGA-Luminasta Frieren: Beyond Journey's End Frieren ~in Mimic~ Figure",
+    "category": "Frieren",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/29-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/29-2.jpg",
+    "link": "https://amzn.to/4leJjOP"
+  },
+  {
+    "id": "30",
+    "name": "Good Smile Company Frieren: Beyond Journey's End – Frieren Nendoroid Action Figure",
+    "category": "Frieren",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/30-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/30-2.jpg",
+    "link": "https://amzn.to/4kmlgfu"
+  },
+  {
+    "id": "31",
+    "name": "Good Smile Company Frieren: Beyond Journey’s End – Stark Nendoroid Action Figure",
+    "category": "Frieren",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/31-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/31-2.jpg",
+    "link": "https://amzn.to/44O3QUy"
+  },
+  {
+    "id": "32",
+    "name": "Good Smile Company Frieren: Beyond Journey's End – Fern Nendoroid Action Figure",
+    "category": "Frieren",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/32-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/32-2.jpg",
+    "link": "https://amzn.to/4lfEMf9"
+  },
+  {
+    "id": "33",
+    "name": "Frieren: Beyond Journey’s End – Frieren Pop Up Parade PVC Figure",
+    "category": "Frieren",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/33-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/33-2.jpg",
+    "link": "https://amzn.to/4nB0tru"
+  },
+  {
+    "id": "34",
+    "name": "Good Smile Company Frieren: Beyond Journey’s End – Himmel Nendoroid Action Figure",
+    "category": "Frieren",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/34-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/34-2.jpg",
+    "link": "https://amzn.to/3Gwv4FO"
+  },
+  {
+    "id": "35",
+    "name": "Good Smile Company Frieren: Beyond Journey’s End – Ubel Nendoroid Action Figure",
+    "category": "Frieren",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/35-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/35-2.jpg",
+    "link": "https://amzn.to/3TqfJd2"
+  },
+  {
+    "id": "36",
+    "name": "SEGA-Frieren: Beyond Journey's End PM Perching Figure Frieren",
+    "category": "Frieren",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/36-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/36-2.jpg",
+    "link": "https://amzn.to/44O61aG"
+  },
+  {
+    "id": "37",
+    "name": "Banpresto - Frieren: Beyond Journey's End - Fern Glasscape Figure",
+    "category": "Frieren",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/37-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/37-2.jpg",
+    "link": "https://amzn.to/3Gni4Cw"
+  },
+  {
+    "id": "38",
+    "name": "Banpresto - Frieren: Beyond Journey's End - Fern Bust Figure",
+    "category": "Frieren",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/38-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/38-2.jpg",
+    "link": "https://amzn.to/3Tt0iRc"
+  },
+  {
+    "id": "39",
+    "name": "Frieren: Beyond Journey’s End – Fern Pop Up Parade PVC Figure",
+    "category": "Frieren",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/39-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/39-2.jpg",
+    "link": "https://amzn.to/3GsW9tF"
+  },
+  {
+    "id": "40",
+    "name": "FURYU Corporation-Frieren: Beyond Journey’s End Noodle Stopper Figure -Frieren-",
+    "category": "Frieren",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/40-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/40-2.jpg",
+    "link": "https://amzn.to/3TYCHIe"
+  },
+  {
+    "id": "41",
+    "name": "SEGA-Yumemirize Frieren: Beyond Journey's End Fern ~in Those Days~ Figure",
+    "category": "Frieren",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/41-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/41-2.jpg",
+    "link": "https://amzn.to/4kqPYEn"
+  },
+  {
+    "id": "42",
+    "name": "FURYU Corporation-Frieren: Beyond Journey’s End Noodle Stopper Figure -Fern-",
+    "category": "Frieren",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/42-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/42-2.jpg",
+    "link": "https://amzn.to/4ex5FII"
+  },
+  {
+    "id": "43",
+    "name": "SEGA Luminasta Frieren: Beyond Journey's End Frieren",
+    "category": "Frieren",
+    "type": "Action Figure",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/43-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/43-2.jpg",
+    "link": "https://amzn.to/4ex5QDS"
+  },
+  {
+    "id": "44",
+    "name": "2024 New Frieren Soft Figure Pillow, 75cm Big Size Anime Figure Hug Pillow Home Sofa Cushions Decoration",
+    "category": "Frieren",
+    "type": "Plush Toy",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/44-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/44-2.jpg",
+    "link": "https://amzn.to/4nRv0Sb"
+  },
+  {
+    "id": "45",
+    "name": "Frieren: Beyond Journey's End, Vol. 13 (13)",
+    "category": "Frieren",
+    "type": "Manga",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/45-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/45-2.jpg",
+    "link": "https://amzn.to/44zYifd"
   }
 ]
