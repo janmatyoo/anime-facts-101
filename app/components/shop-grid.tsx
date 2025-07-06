@@ -1,4 +1,3 @@
-// components/shop-grid.tsx
 "use client"
 
 import Image from "next/image"
@@ -7,7 +6,16 @@ import products from "../../public/products.json"
 import "keen-slider/keen-slider.min.css"
 import { useKeenSlider } from "keen-slider/react"
 import { useState } from "react"
-import { ShoppingCart, Shirt, Boxes, Tag, BookOpen, Sparkles, MonitorSmartphone, Sun } from "lucide-react"
+import {
+  ShoppingCart,
+  Shirt,
+  Boxes,
+  Tag,
+  BookOpen,
+  Sparkles,
+  MonitorSmartphone,
+  Sun,
+} from "lucide-react"
 
 interface Product {
   id: string
@@ -32,31 +40,48 @@ const typeIcons: Record<string, React.ReactNode> = {
 export default function ShopGrid({
   showFilters = true,
   limit,
+  category,
+  randomize = false,
 }: {
   showFilters?: boolean
   limit?: number
+  category?: string
+  randomize?: boolean
 }) {
   const [selectedType, setSelectedType] = useState<string>("All")
   const [selectedCategory, setSelectedCategory] = useState<string>("All")
 
-  const types = ["All", ...Array.from(new Set(products.map(p => p.type)))]
-  const categories = ["All", ...Array.from(new Set(products
-    .filter(p => selectedType === "All" || p.type === selectedType)
-    .map(p => p.category)))]
+  const types = ["All", ...Array.from(new Set(products.map((p) => p.type)))]
+  const allCategories = Array.from(new Set(products.map((p) => p.category)))
+  const categoryIsValid = !category || category === "General" || allCategories.includes(category)
 
-  const filteredProducts = products.filter(p =>
-    (selectedType === "All" || p.type === selectedType) &&
-    (selectedCategory === "All" || p.category === selectedCategory)
+  let baseFiltered = products
+
+  // Apply category prop filter
+  if (category && category !== "General" && allCategories.includes(category)) {
+    baseFiltered = baseFiltered.filter((p) => p.category === category)
+  }
+
+  // Apply user filter (type/category)
+  let filteredProducts = baseFiltered.filter(
+    (p) =>
+      (selectedType === "All" || p.type === selectedType) &&
+      (selectedCategory === "All" || p.category === selectedCategory)
   )
+
+  // Randomize final list if flag is true
+  if (randomize) {
+    filteredProducts = [...filteredProducts].sort(() => Math.random() - 0.5)
+  }
 
   const displayedProducts = limit ? filteredProducts.slice(0, limit) : filteredProducts
 
   return (
     <div>
-      {showFilters && (
+      {showFilters && categoryIsValid && (
         <div className="sticky top-16 bg-white z-10 py-4 space-y-4">
           <div className="flex flex-wrap justify-center gap-3">
-            {types.map(type => (
+            {types.map((type) => (
               <button
                 key={type}
                 onClick={() => {
@@ -69,24 +94,25 @@ export default function ShopGrid({
                     : "bg-white text-gray-700 border-gray-300 hover:bg-gray-100"
                 }`}
               >
-                {typeIcons[type] || null}{type}
+                {typeIcons[type] || null}
+                {type}
               </button>
             ))}
           </div>
 
           {selectedType !== "All" && (
             <div className="flex flex-wrap justify-center gap-3">
-              {categories.map(category => (
+              {["All", ...Array.from(new Set(baseFiltered.map((p) => p.category)))].map((cat) => (
                 <button
-                  key={category}
-                  onClick={() => setSelectedCategory(category)}
+                  key={cat}
+                  onClick={() => setSelectedCategory(cat)}
                   className={`px-4 py-2 rounded-full border text-sm font-medium transition ${
-                    selectedCategory === category
+                    selectedCategory === cat
                       ? "bg-[#133162] text-white"
                       : "bg-white text-gray-700 border-gray-300 hover:bg-gray-100"
                   }`}
                 >
-                  {category}
+                  {cat}
                 </button>
               ))}
             </div>

@@ -9,7 +9,7 @@ export default function ShopPage() {
           <p className="text-xl text-gray-600">Curated anime goodies you can grab through Amazon!</p>
         </div>
 
-        <ShopGrid showFilters />
+        <ShopGrid showFilters randomize={true}/>
 
         <p className="text-sm text-gray-400 text-center mt-12 italic">
           As an Amazon Associate, I earn from qualifying purchases.

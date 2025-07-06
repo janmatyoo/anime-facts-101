@@ -118,7 +118,7 @@ export default function HomePage() {
                     </button>
                   </Link>
                 </div>
-                <ShopGrid showFilters={false} limit={3} />
+                <ShopGrid showFilters={false} limit={3} randomize={true}/>
               </div>
             </div>
           </div>

@@ -7,6 +7,7 @@
     "category": "Behind the Scenes",
     "date_created": "2025-07-02",
     "read_duration": 4,
+    "product_category": "One Piece",
     "details": [
       {
         "header_title": "One Piece Was Supposed to End in Five Years",
@@ -43,6 +44,7 @@
     "category": "Trivia",
     "date_created": "2025-07-03",
     "read_duration": 4,
+    "product_category": "General",
     "details": [
       {
         "header_title": "Attack on Titan Hints at Creator Isayama’s Love for UFC",
@@ -79,6 +81,7 @@
     "category": "Lists & Rankings",
     "date_created": "2025-07-04",
     "read_duration": 3,
+    "product_category": "General",
     "details": [
       {
         "header_title": "Grave of the Fireflies Leaves Nothing but Tears",
@@ -115,6 +118,7 @@
     "category": "Lists & Rankings",
     "date_created": "2025-07-05",
     "read_duration": 7,
+    "product_category": "Bleach",
     "details": [
       {
         "header_title": "10. Lisa Yadomaru – Mystery and Intelligence",
@@ -165,6 +169,43 @@
         "header_title": "1. Rukia Kuchiki – Grace and Strength in One",
         "details": "Rukia has always been one of Bleach's most iconic female characters. From the moment she appears, her calm presence, artistic humor, and sharp decision-making earn respect. She starts as a guide for Ichigo but later becomes a true leader in her own right. Fans admire her evolution into the Captain of Squad 13.\n\nShe may be reserved, but Rukia's inner strength and ability to face emotional pain head-on make her incredibly relatable. Her connection to Ichigo remains subtle yet powerful, giving her character a unique layer of emotional resonance.",
         "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/a_lnr_card_2_10.png"
+      }
+    ]
+  },
+  {
+    "id": "frieren-beyond-journeys-end-season-2",
+    "title": "Frieren: Beyond Journey's End Season 2",
+    "overview": "Frieren: Beyond Journey's End continues to capture hearts with its quiet beauty and emotional depth. As Season 2 approaches, fans are eager to see where the story of the melancholic elf mage will go next. Season 1 left off with powerful moments of reflection, magic, and growth. Season 2 promises even more introspection, magical lore, and world-building. From new characters to emotional challenges, this next chapter will dive deeper into the core themes that make Frieren so special.",
+    "card_thumbnail": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/a_n_card_1.png",
+    "category": "News",
+    "date_created": "2025-07-06",
+    "read_duration": 4,
+    "product_category": "Frieren",
+    "details": [
+      {
+        "header_title": "Season 2 Will Explore the Northern Realms",
+        "details": "Season 2 will expand the world by taking Frieren and her companions into the treacherous northern regions. These new lands are rumored to be filled with ancient magic, powerful foes, and uncharted ruins.\n\nFans who love the world-building of the series will be excited to explore unknown corners of this mystical realm. With harsher climates and more intense battles ahead, the northern journey will also challenge the emotional resilience of the party. The arc will deepen the show's philosophical undertones, forcing each character to confront past memories and future choices.",
+        "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/a_n_card_1_1.png"
+      },
+      {
+        "header_title": "More Development for Fern and Stark",
+        "details": "While Frieren remains the central figure, Fern and Stark have grown into fan favorites thanks to their relatable personalities and emotional depth. Season 2 is expected to give both characters more screen time and narrative development. Their bond will be tested in ways that highlight their personal growth and reliance on each other.\n\nFern's maturity and hidden vulnerability will contrast beautifully with Stark's bravery and insecurities. Watching them evolve while facing new magical threats and moral dilemmas will be one of the emotional highlights of the season.",
+        "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/a_n_card_1_2.png"
+      },
+      {
+        "header_title": "New Characters and Powerful Mages Incoming",
+        "details": "Season 2 will introduce several new characters, including high-ranking mages, mysterious wanderers, and long-lost legends. These new figures will bring complexity to the storyline, introducing conflicts that are not only physical but ideological.\n\nThe way Frieren interacts with these characters will offer more insight into her past and values. Some of the new mages are expected to challenge her in power, while others may share a deeper connection to her ancient timeline. These interactions will add new dimensions to the theme of immortality and emotional distance.",
+        "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/a_n_card_1_3.png"
+      },
+      {
+        "header_title": "Visuals and Soundtrack Take a Step Further",
+        "details": "The first season was widely praised for its stunning art direction and emotionally resonant soundtrack. Season 2 aims to go even further, with more atmospheric landscapes, refined animation during combat, and hauntingly beautiful music. The production team at Madhouse is set to raise the bar once again.\n\nAs the story delves into more introspective and emotionally charged territory, the visuals and score will play a critical role in setting the tone. Expect more subtle cues and breathtaking scenery that underline the quiet power of Frieren's journey.",
+        "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/a_n_card_1_4.png"
+      },
+      {
+        "header_title": "Themes of Time and Legacy Will Deepen",
+        "details": "One of Frieren’s strongest themes is how time affects memory, relationships, and purpose. Season 2 will push these themes even further. As Frieren continues to outlive the people she meets, the weight of her memories and emotional regrets will become more central to the plot.\n\nIt’s not just about adventure but understanding the cost of immortality. Through flashbacks and reflective moments, viewers will see more of her internal world. Her interactions with others, especially those who remind her of her past companions, will add layers of melancholy and meaning to each step forward.",
+        "image": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/a_n_card_1_5.png"
       }
     ]
   }

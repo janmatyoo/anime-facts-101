@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Metadata } from 'next'
 import categoryColors from '../../lib/categoryColors'
+import ShopGrid from "../../components/shop-grid"
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params
@@ -105,11 +106,26 @@ export default async function ArticleDetailPage({ params }: { params: Promise<{ 
           <AdBanner />
         </div>
 
+        {/* Related Anime Merch */}        
+        <div>
+          <div className="flex items-center justify-between">
+            <h2 className="text-3xl font-bold text-[#133162] mb-6">
+              Related Anime Merch
+            </h2>
+            <Link href={`/shop`}>
+              <button className="btn-secondary px-1 py-3 text-sm">
+                See More
+              </button>
+            </Link>
+          </div>
+          <ShopGrid category={article.product_category} showFilters={false} limit={6} randomize={true}/>
+        </div>
+
         {/* Related Articles */}
         {relatedArticles.length > 0 && (
           <section className="mt-16 mb-10">
             <div className="max-w-7xl mx-auto">
-              <h2 className="text-2xl font-bold text-[#133162] mb-6">See More Articles</h2>
+              <h2 className="text-3xl font-bold text-[#133162] mb-6">See More Articles</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {relatedArticles.map((related) => (
                   <div
