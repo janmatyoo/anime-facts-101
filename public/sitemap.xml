@@ -438,4 +438,10 @@
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>
+
+    <url>
+      <loc>https://animefacts101.com/articles/fan-theories-that-turned-out-true</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
 </urlset>
