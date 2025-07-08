@@ -68,6 +68,12 @@
     </url>
 
     <url>
+      <loc>https://animefacts101.com/page/7</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+
+    <url>
       <loc>https://animefacts101.com/reels-page/1</loc>
       <changefreq>weekly</changefreq>
       <priority>0.6</priority>
@@ -386,6 +392,36 @@
     </url>
 
     <url>
+      <loc>https://animefacts101.com/fact/51</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/52</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/53</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/54</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/fact/55</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
       <loc>https://animefacts101.com/fact/124</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
@@ -441,6 +477,12 @@
 
     <url>
       <loc>https://animefacts101.com/articles/fan-theories-that-turned-out-true</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+
+    <url>
+      <loc>https://animefacts101.com/articles/anime-inspired-by-japanese-mythology</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>

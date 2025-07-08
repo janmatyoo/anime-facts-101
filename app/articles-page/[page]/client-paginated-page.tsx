@@ -37,9 +37,9 @@ export default function ClientPaginatedArticlesPage() {
 
   const categories = ['All', ...Array.from(new Set(articles.map(a => a.category)))]
 
-  const filteredArticles = articles.filter(article => {
-    return selectedCategory === 'All' || article.category === selectedCategory
-  })
+  const filteredArticles = [...articles]
+  .sort((a, b) => new Date(b.date_created).getTime() - new Date(a.date_created).getTime())
+  .filter(article => selectedCategory === 'All' || article.category === selectedCategory)
 
   const startIndex = (page - 1) * PAGE_SIZE
   const currentArticles = filteredArticles.slice(startIndex, startIndex + PAGE_SIZE)
