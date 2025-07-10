@@ -403,5 +403,86 @@
     "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/45-1.jpg",
     "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/45-2.jpg",
     "link": "https://amzn.to/44zYifd"
+  },
+  {
+    "id": "46",
+    "name": "Funko POP! Animation: Black Clover - Asta",
+    "category": "Black Clover",
+    "type": "Funko Pop",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/46-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/46-2.jpg",
+    "link": "https://amzn.to/4lPkMzR"
+  },
+  {
+    "id": "47",
+    "name": "Funko Pop! Animation: Black Clover - Yuno",
+    "category": "Black Clover",
+    "type": "Funko Pop",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/47-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/47-2.jpg",
+    "link": "https://amzn.to/44FlQiu"
+  },
+  {
+    "id": "48",
+    "name": "Pop! Black Cover 1157 Mereoleona Special Edition",
+    "category": "Black Clover",
+    "type": "Funko Pop",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/48-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/48-2.jpg",
+    "link": "https://amzn.to/44UC9JM"
+  },
+  {
+    "id": "49",
+    "name": "Funko POP! Animation: Black Clover - Julius Novachrono",
+    "category": "Black Clover",
+    "type": "Funko Pop",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/49-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/49-2.jpg",
+    "link": "https://amzn.to/4lKqi6y"
+  },
+  {
+    "id": "50",
+    "name": "Funko POP! Animation: Black Clover - Secre",
+    "category": "Black Clover",
+    "type": "Funko Pop",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/50-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/50-2.jpg",
+    "link": "https://amzn.to/40FwNiT"
+  },
+  {
+    "id": "51",
+    "name": "Funko POP! Animation: Black Clover - Leopold Vermillion",
+    "category": "Black Clover",
+    "type": "Funko Pop",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/51-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/51-2.jpg",
+    "link": "https://amzn.to/3Tsk5jM"
+  },
+  {
+    "id": "52",
+    "name": "Funko POP! Animation: Black Clover - William Vangeance",
+    "category": "Black Clover",
+    "type": "Funko Pop",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/52-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/52-2.jpg",
+    "link": "https://amzn.to/4lKmwKz"
+  },
+  {
+    "id": "53",
+    "name": "Funko POP! Animation: Black Clover - Yuno - (Spirit of Zephyr)",
+    "category": "Black Clover",
+    "type": "Funko Pop",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/53-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/53-2.jpg",
+    "link": "https://amzn.to/44FG0Ji"
+  },
+  {
+    "id": "54",
+    "name": "Funko POP! Animation: Black Clover - Yami",
+    "category": "Black Clover",
+    "type": "Funko Pop",
+    "image_1": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/54-1.jpg",
+    "image_2": "https://res.cloudinary.com/dwcryn9sr/image/upload/w_auto,c_limit,q_auto,f_auto/54-2.jpg",
+    "link": "https://amzn.to/4nMhvmK"
   }
 ]
